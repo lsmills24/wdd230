@@ -64,7 +64,7 @@ main {
 main h2 {
     border-bottom: solid 2px #14161d ;
 }
-main section {
+.card {
     grid-column: 1 / 2;
     border: solid 2px #14161d;
     border-radius: 5px;
@@ -80,6 +80,10 @@ section ul li {
     list-style-type: none;
     text-align: left;
     margin-left: -20px;
+}
+section ul li a {
+    text-decoration: none;
+    color: black;
 }
 
 footer {

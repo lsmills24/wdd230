@@ -1,16 +1,18 @@
-//Check back over this - LM 9/16/23
+// Return year
+document.getElementById('year').innerHTML = new Date().getFullYear();
 
-//Referenced "https://stackoverflow.com/questions/6002254/get-the-current-year-in-javascript"
-// Return current date and time
-var currentTime = new Date()
+// Return date last modified
+let modified = document.lastModified;
+document.getElementById('sudo').innerHTML = modified;
 
-var month = currentTime.getMonth() + 1
-
-var day = currentTime.getDate()
-
-var year = currentTime.getFullYear()
-
-// write output MM/dd/yyyy
-// document.write(month + "/" + day + "/" + year)
-
-let oLastModif = new Date(document.lastModified);
+// Referenced  https://contactmentor.com/build-website-visitor-counter-javascript/?expand_article=1
+// let counterContainer = document.querySelector(".website-counter");
+// let visitCount = localStorage.getItem("page_view");
+// if (visitCount) {
+//     visitCount = Number(visitCount) + 1;
+//     localStorage.setItem('page_view', visitCount);
+// } else {
+//     visitCount = 1;
+//     localStorage.setItem('page_view', 1);
+// }
+// counterContainer.innerHTML = visitCount;
