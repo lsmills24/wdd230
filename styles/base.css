@@ -52,6 +52,9 @@ nav a {
     text-decoration: none;
     color: black;
 }
+nav a:hover {
+    color: #374f2f;
+}
 
 main {
     max-width: 50%;
@@ -81,9 +84,16 @@ section ul li {
     text-align: left;
     margin-left: -20px;
 }
-section ul li a {
+/* section ul li a {
     text-decoration: none;
     color: black;
+} */
+.lesson {
+    text-decoration: none;
+    color: black;
+}
+.lesson:hover{
+    color: #374f2f;
 }
 
 footer {
