@@ -84,10 +84,13 @@ section ul li {
     text-align: left;
     margin-left: -20px;
 }
-/* section ul li a {
+section ul li a {
     text-decoration: none;
     color: black;
-} */
+}
+section ul li a:hover {
+    color: #374f2f;
+}
 .lesson {
     text-decoration: none;
     color: black;
