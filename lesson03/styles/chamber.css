@@ -1,0 +1,98 @@
+@import url(https://fonts.googleapis.com/css2?family=Merriweather&family=Quattrocento+Sans&family=Ubuntu&display=swap);
+/* @import url(https://coolors.co/547fad-0098fa-2e5eaa-f2faff-10132f); */
+
+body {
+    /* max-width: 80%; */
+    margin: 0 auto;
+    text-align: center;
+    color: #10132F;
+}
+
+header {
+    width: 100%;
+    margin: 0;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #10132F;
+    color: whitesmoke;
+    font-size: 1.5em;
+    font-family: 'Merriweather', Arial, 'Times New Roman';
+}
+
+main {
+    max-width: 80%;
+    margin: 0 auto;
+    background-color: #F2FAFF;
+    padding: 25px;
+}
+h1 {
+    margin: 0;
+}
+h2 {
+    margin: 0;
+    font-family: 'Merriweather', Arial, 'Times New Roman';
+}
+p {
+    font-family: "Quattrocento Sans", sans-serif, serif; 
+}
+section {
+    padding: 10px;
+}
+
+/* Purpose *************************/
+
+/* Scenarios *************************/
+section ul {
+    padding: 0;
+}
+section ul li {
+    list-style-type: none;
+}
+
+/* Color Schema *************************/
+.colors {
+    width: 100%;
+    min-width: 350px;
+    margin: 30px auto;
+    text-align: center;
+    /* border: 2px solid black; */
+}
+.colors th {
+    background-color: #999;
+    border: 2px solid black;
+}
+.colors td{
+    width: 25%;
+    height: 3em;
+    border: 1px solid black;
+}
+.primary {
+    background-color: #10132F;
+    color: whitesmoke;
+}
+.secondary {
+    background-color: #F2FAFF;
+}
+.accent1 {
+    background-color: #547FAD;
+    color: whitesmoke;
+}
+.accent2{
+    background-color: #2E5EAA;
+    color: whitesmoke;
+}
+
+/* Typography *************************/
+hr {
+    position: relative;
+    border: none;
+    height: 2px;
+    background: #10132F;
+}
+
+/* Wireframes *************************/
+img {
+    width: 50%;
+}
+
+/* Footer *************************/
