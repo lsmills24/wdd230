@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="favicon.ico">
+    <title>Chamber</title>
+    <!-- Metadata -->
+    <meta property="og:title" content="Loran Mills - WDD 230 - Chamber Website Homepage">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://businessviewmagazine.com/wp-content/uploads/2022/02/north-ogden-utah-f.jpeg">
+    <meta property="og:url" content="https://lsmills24.github.io/wdd230/chamber/index.html">
+    <meta name="author" content="Loran Mills">
+    <meta name="description" content="Chamber Site Homepage">
+</head>
+<body>
+    <header>
+        <img id="icon" src="images/NO-icon.png" alt="North Ogden Icon">
+        <section id="title">
+            <h1>North Ogden City</h1>
+            <h2>Chamber of Commerce</h2>
+        </section>
+
+        <nav>
+            <button id="menu"></button>
+            <ul class="navigation">
+                <li><a href="">Officials</a></li>
+                <li><a href="">Events</a></li>
+                <li><a href="">Businesses</a></li>
+                <li><a href="">Sights</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="hero">
+            <div id="hero-box">
+                <img id="hero-img" src="images/mountains.jpeg" alt="Ben Lomond Peak over North Ogden">
+            </div>
+            <a id="call-action" href="#">CALL TO ACTION</a>
+        </div>
+        <div id="main-grid">
+            <section id="events">
+                <h3>Current Events</h3>
+            </section>
+            <section id="weather">
+                <h3>Weather Forecast</h3>
+            </section>
+            <section id="spotlight">
+                <h3>Business Spotlight</h3>
+            </section>
+            <section id="activities">
+                <h3>Activities</h3>
+            </section>
+            <section id="extras">
+                <h3>Extras</h3>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <section id="document-info">
+            <p>&copy; <span id="year"></span> | Loran Mills | UT, USA</p>
+            <p>Last Modification: <span id="sudo"></span></p>
+        </section>
+        <section id="contact">
+            <p>Contact Information:</p>
+            <p>Loran Mills</p>
+            <p>E: lsmills24@byui.edu</p>
+            <p>P: 307-250-9367</p>
+            <p></p>
+        </section>
+    </footer>
+
+    <script src="scripts/getdates.js"></script>
+    <script>
+        const hamButton = document.querySelector('#menu');
+        const navigation = document.querySelector('.navigation');
+
+        hamButton.addEventListener('click', () => {
+	    navigation.classList.toggle('open');
+	    hamButton.classList.toggle('open');
+        });
+    </script>
+</body>
+</html>
