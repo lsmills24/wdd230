@@ -16,8 +16,8 @@ p {
 header {
     width: 100%;
     margin: 0;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     background-color: #10132F;
     color: whitesmoke;
     /* font-size: 1.5em; */
@@ -36,18 +36,19 @@ header {
     grid-template-columns: 1/2;
 }
 #title {
+    margin: 0;
     grid-template-columns: 2/3;
 }
 h1 {
-    font-size: 1.75em;
-    margin-bottom: 0;
+    font-size: 1.25em;
+    margin: 0;
     font-family: 'Merriweather', Arial, 'Times New Roman';
 }
-h2 {
+/* h2 {
     margin-top: 0;
     font-size: 1.25em;
     font-family: 'Merriweather', Arial, 'Times New Roman';
-}
+} */
 
 nav ul {
     list-style: none;
@@ -55,13 +56,13 @@ nav ul {
     margin-right: 50px;
 }
 nav a {
-    font-size: 1.3rem;
+    font-size: 1.25rem;
     text-decoration: none;
     color: whitesmoke;
 }
 /* HamButton Nav */
 #menu {
-    font-size: 1.5rem;
+    /* font-size: 1.25rem; */
 	border: 1px solid rgba(0,0,0,.3);
 	padding: 3px 7px 6px;
 	background-color: #eee;
