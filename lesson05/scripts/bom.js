@@ -18,6 +18,6 @@ button.addEventListener('click', () => {
         input.focus();
         input.value = '';
     } else {
-        document.write('Please Try Again');
+        window.alert('Please Try Again');
     }
 });
