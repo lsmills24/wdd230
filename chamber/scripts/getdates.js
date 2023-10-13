@@ -5,6 +5,7 @@ document.getElementById('year').innerHTML = new Date().getFullYear();
 let modified = document.lastModified;
 document.getElementById('sudo').innerHTML = modified;
 
+// HamButton 
 const hamButton = document.querySelector('#menu');
 const navigation = document.querySelector('.navigation');
 
