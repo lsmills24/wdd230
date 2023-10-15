@@ -33,7 +33,7 @@
         width: 100%;
         /* height: 200px; */
     }
-    #activities {
+    #spotlight {
         grid-column: 1/3;
     }
     
