@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="styles/larger.css">
     <link rel="icon" href="favicon.ico">
     <title>North Ogden City Chamber of Commerce</title>
+    <!--https://www.northogdencity.com/-->
     <!-- Metadata -->
     <meta property="og:title" content="Loran Mills - WDD 230 - Chamber of Commerce Website Homepage">
     <meta property="og:type" content="website">
@@ -22,7 +23,7 @@
     <header>
         <img id="icon" src="images/NO-icon.png" alt="North Ogden Icon">
         <section id="title">
-            <h1>North Ogden City <br>Chamber of Commerce</h1>
+            <h1>North Ogden City<br>Chamber of Commerce</h1>
             <!-- <h2></h2> -->
         </section>
 
@@ -35,7 +36,12 @@
                 <li><a href="">Sights</a></li>
             </ul>
         </nav>
-        <div id="mode">◾</div>
+        <button
+            id="darkswitch"
+            type="button"
+            data-theme-toggle
+            aria-label="Change to light theme"
+        >⬛Dark</button>
     </header>
     <main>
         <div class="hero">
@@ -65,18 +71,20 @@
     </main>
     <footer>
         <div id="document-info">
-            <p>&copy; <span id="year"></span> | Loran Mills | UT, USA</p>
+            <p>&copy; <span id="year"></span> | Loran Mills | WDD230 Project</p>
             <p>Last Modification: <span id="sudo"></span></p>
         </div>
-        <div id="contact">
-            <p>Contact Information:</p>
-            <p>Loran Mills</p>
-            <p>E: lsmills24@byui.edu</p>
-            <p>P: 307-250-9367</p>
+        <div id="contact">  
+            <h3>North Ogden City<br>Chamber of Commerce</h3>
+            <hr>
+            <p>505 E 2600 N</p>
+            <p>North Ogden, UT 84414</p>
+            <p>(801) 782-7211</p>
             <p></p>
         </div>
     </footer>
 
     <script src="scripts/getdates.js"></script>
+    <script src="scripts/darkmode.js"></script>
 </body>
 </html>

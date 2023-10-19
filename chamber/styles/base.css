@@ -1,12 +1,30 @@
 @import url(https://fonts.googleapis.com/css2?family=Merriweather&family=Quattrocento+Sans&family=Ubuntu&display=swap);
 /* @import url(https://coolors.co/547fad-0098fa-2e5eaa-f2faff-10132f); */
 
+[data-theme="light"] {
+    --color-bg: #F2FAFF;
+    --color-fg: #10132F;
+    --color-border: #10132F;
+    --color-card-bg: white;
+    --color-card-fg: black;
+}
+[data-theme="dark"] {
+    --color-bg: black;
+    --color-fg: #F2FAFF;
+    --color-border: white;
+    --color-card-bg: black;
+    --color-card-fg: white;
+}
+
+
 body {
     /* max-width: 80%; */
-    background-color: #F2FAFF;
+    background-color: var(--color-bg);
+    color: var(--color-fg);
+    /* background-color: #F2FAFF; */
     margin: 0 auto;
     text-align: center;
-    color: #10132F;
+    /* color: #10132F; */
 }
 
 p {
@@ -23,7 +41,8 @@ header {
     /* font-size: 1.5em; */
     font-family: 'Merriweather', Arial, 'Times New Roman';
     display: grid;
-    grid-template-columns: 1fr 2fr 2.5fr;
+    grid-template-columns: 1fr 2fr 2fr;
+    grid-gap: 10px;
     justify-items: center;
     justify-content: space-evenly;
     align-items: center;
@@ -40,15 +59,10 @@ header {
     grid-column: 2/3;
 }
 h1 {
-    font-size: 1.25em;
+    font-size: 1em;
     margin: 0;
     font-family: 'Merriweather', Arial, 'Times New Roman';
 }
-/* h2 {
-    margin-top: 0;
-    font-size: 1.25em;
-    font-family: 'Merriweather', Arial, 'Times New Roman';
-} */
 
 nav ul {
     list-style: none;
@@ -56,7 +70,7 @@ nav ul {
     margin-right: 50px;
 }
 nav a {
-    font-size: 1.25rem;
+    font-size: 1rem;
     text-decoration: none;
     color: whitesmoke;
 }
@@ -65,13 +79,13 @@ nav a {
     /* font-size: 1.25rem; */
 	border: 1px solid rgba(0,0,0,.3);
 	padding: 3px 7px 6px;
-	background-color: #eee;
+	background-color: #F2FAFF;
 	color: #000;
     height: 35px;
     width: 35px;
  	position: absolute;
-    right: 25px;
-    top: 25px;
+    right: 10px;
+    top: 45px;
 }
 #menu::before {
     content: "☰";
@@ -81,6 +95,8 @@ nav a {
 }
 .navigation {
     padding: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
     display: flex;
     flex-direction: column;
     list-style: none;
@@ -96,7 +112,7 @@ nav a {
     text-decoration: none;
 }
 .navigation li a:hover {
-    text-shadow: 2px 2px 5px #F2FAFF;
+    text-shadow: #F2FAFF 2px 2px 10px;
     color: whitesmoke;
 }
 /* When button is clicked */
@@ -110,15 +126,25 @@ nav a {
 /* End of HamButton Nav */
 
 /* Dark Mode Switch */
-#mode {
-	position: absolute;
-	top: .25rem;
-	right: .25rem;
-	font-size: 3rem;
-	cursor: pointer;
+button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    transition: all var(--global-transition-time) ease-in-out;
+    cursor: pointer;
+    position: absolute;  
+  }
+#darkswitch {
+    /* font-size: 1rem; */
+    border: 1px solid rgba(0,0,0,.3);
+	padding: 4px 2px;
+	background-color: #F2FAFF;
+	color: #000;
+    top: 10px;
+    right: 10px;
 }
-
-
 /* End Dark Mode Switch */
 
 /* Main */
@@ -174,26 +200,26 @@ h3 {
 
 /* Main Body Content */
 section {
-    border: solid 2px #10132F;
     margin-top: 25px;
     border-radius: 5px;
 }
 section h3 {
     margin: 0;
     padding: 10px;
-    background-color: #10132F;
-    color: whitesmoke;
-    border-bottom: solid 2px #10132F;
+    background-color: var(--color-border);
+    color: var(--color-bg);
+    border-bottom: solid 2px var(--color-border);
 }
 .card {
-    background-color: white;
-    color: black;
+    border: solid 2px var(--color-border);
+    background-color: var(--color-card-bg);
+    color: var(--color-card-fg);
 }
 
 /* Footer */
 footer {
     margin-top: 25px;
-    padding: 25px;
+    padding: 20px;
     /* padding-bottom: 25px; */
     background-color: #10132F;
     color: white;
@@ -204,12 +230,19 @@ footer {
     align-content: space-evenly;
     align-items: center;
 }
+footer h3 {
+    margin: 0;
+    margin-bottom: 5px;
+}
+hr {
+    border: 1px solid white;
+}
 footer p {
     margin: 0 auto;
 }
 #document-info {
-    font-size: 1.25em;
+    font-size: .8em;
 }
 #contact {
-    font-size: 1em;
+    font-size: .7em;
 }
