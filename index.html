@@ -18,7 +18,7 @@
 </head>
 <body>
     <header>
-        <img src="images/loran.jpg" alt="Loran Mills Photo">
+        <img src="images/loran.webp" alt="Loran Mills Photo">
         <h1>Loran Mills</h1>
     </header>
     <nav>
@@ -32,32 +32,42 @@
         </ul>    
     </nav>
     <main>
+        <div class="hero">
+            <picture> <!--https://newsroom.churchofjesuschrist.org/media/orig/brigham-city-utah-temple-exterior5a.jpg & https://taushaschumann.com/wp-content/uploads/2015/12/BrighamCityTemple.jpg-->
+                <source media="(max-width: 400px)" srcset="images/brigham-city-temple-mobile.webp">
+                <!-- <source media="(max-width: 960px)" srcset="images/brigham-city-temple-large.webp"> -->
+                <img src="images/brigham-city-temple-large.webp" alt="Brigham City Utah Temple" width="960" height="630">
+                <span class="herolabel">Brigham City Temple</span>
+            </picture>
+        </div>
         <h2>WDD 230: Web Frontend Development</h2>
-        <section class="card" id="activ">
-            <h3>Learning Activities</h3>
-            <ul> <!--14 bullet points-->
-                <li> 01: <a class="lesson" href="lesson01/holygrail.html">Holy Grail Layout</a> | <a class="lesson" href="lesson01/media-query.html">Media Queries</a></li>
-                <li> 02: <a class="lesson" href="lesson02/design.html">CSS Design</a> | <a class="lesson" href="lesson02/design-principles.html">Design Principles</a></li>
-                <li> 03: <a class="lesson" href="lesson03/images/combinator_exercises.png">Combinators</a> | <a class="lesson" href="https://codepen.io/lsmills24/pen/rNovzGY">Pseudo-Elements | </a><a class="lesson" href="https://codepen.io/lsmills24/pen/RwEyXYz">HamButton</a></li>
-                <li> 04: <a class="lesson" href="https://codepen.io/lsmills24/pen/poqxQqK">Pseudo-Classes</a></li>
-                <li> 05: <a class="lesson" href="lesson05/bom.html">BOM Chapters</a></li>
-                <li> 06: <a class="lesson" href="lesson06/images/landscape-reduced.webp">WebP</a> | <a class="lesson" href="lesson06/responsive-images.html">Responsive Images</a></li></li>
-                <li> 07: <a class="lesson"></a></li>
-                <li> 08: <a class="lesson"></a></li>
-                <li> 09: <a class="lesson"></a></li>
-                <li> 10: <a class="lesson"></a></li>
-                <li> 11: <a class="lesson"></a></li>
-                <li> 12: <a class="lesson"></a></li>
-                <li> 13: <a class="lesson"></a></li>
-                <li> 14: <a class="lesson"></a></li> 
-            </ul>
-        </section>
-        <section class="card" id="info">
-            <h3>Information</h3>
-            <p>[Ogden, UT, USA]</p>
-            <p>[83&deg;F - Sunshine]</p>
-            <p><span class="website-counter">[ ]</span> Page Visits</p>
-        </section>
+        <div class="content">
+            <section class="card" id="activ">
+                <h3>Learning Activities</h3>
+                <ul> <!--14 bullet points-->
+                    <li> 01: <a class="lesson" href="lesson01/holygrail.html">Holy Grail Layout</a> | <a class="lesson" href="lesson01/media-query.html">Media Queries</a></li>
+                    <li> 02: <a class="lesson" href="lesson02/design.html">CSS Design</a> | <a class="lesson" href="lesson02/design-principles.html">Design Principles</a></li>
+                    <li> 03: <a class="lesson" href="lesson03/images/combinator_exercises.png">Combinators</a> | <a class="lesson" href="https://codepen.io/lsmills24/pen/rNovzGY">Pseudo-Elements | </a><a class="lesson" href="https://codepen.io/lsmills24/pen/RwEyXYz">HamButton</a></li>
+                    <li> 04: <a class="lesson" href="https://codepen.io/lsmills24/pen/poqxQqK">Pseudo-Classes</a></li>
+                    <li> 05: <a class="lesson" href="lesson05/bom.html">BOM Chapters</a></li>
+                    <li> 06: <a class="lesson" href="lesson06/images/landscape-reduced.webp">WebP</a> | <a class="lesson" href="lesson06/responsive-images.html">Responsive Images</a></li></li>
+                    <li> 07: <a class="lesson"></a></li>
+                    <li> 08: <a class="lesson"></a></li>
+                    <li> 09: <a class="lesson"></a></li>
+                    <li> 10: <a class="lesson"></a></li>
+                    <li> 11: <a class="lesson"></a></li>
+                    <li> 12: <a class="lesson"></a></li>
+                    <li> 13: <a class="lesson"></a></li>
+                    <li> 14: <a class="lesson"></a></li> 
+                </ul>
+            </section>
+            <section class="card" id="info">
+                <h3>Information</h3>
+                <p>[Ogden, UT, USA]</p>
+                <p>[83&deg;F - Sunshine]</p>
+                <p><span class="website-counter">[ ]</span> Page Visits</p>
+            </section>
+        </div>
     </main>
     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d17451.29674686146!2d-111.96447956129022!3d41.305403209560986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1695961791376!5m2!1sen!2sus" width="1" height="1" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     <footer>

@@ -108,13 +108,34 @@ main {
     max-width: 60%;
     text-align: center;
     margin: auto;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 20px;
     font-family: 'Roboto', Arial, 'Times New Roman';
+}
+.hero {
+    position: relative;
+}
+.hero img {
+    width: 100%;
+    height: auto
+}
+.herolabel {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    background: radial-gradient(#ffffff, #cef1c9);
+	border: 1px solid rgba(0,0,0,.75);
+	padding: .5rem;
+	box-shadow: 0 0 3rem #fff;
+	opacity: 0.8;
+    font-family: 'Acme', Arial, 'Times New Roman';
+    font-size: .8em;
 }
 main h2 {
     border-bottom: solid 2px #14161d ;
+}
+.content {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
 }
 .card {
     grid-column: 1 / 2;
