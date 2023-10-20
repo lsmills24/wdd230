@@ -37,7 +37,7 @@ header h1 {
 nav {
     background-color: #cef1c9;
     margin: 0 auto;
-    padding: 10px;
+    padding: 20px;
     list-style-type: none;
     line-height: 50px;
     border-bottom: solid 4px #241853;
@@ -46,6 +46,7 @@ nav ul li{
     list-style-type: none;
     font-family: 'Acme', Arial, 'Times New Roman';
     font-size: 1.5em;
+    line-height: 1.5em;
 }
 nav a {
     text-decoration: none;
@@ -66,7 +67,7 @@ nav a:hover {
     width: 35px;
  	position: absolute;
     right: 7.5px;
-    top: 232.5px;
+    top: 242.5px;
 }
 #menu::before {
     content: "☰";
