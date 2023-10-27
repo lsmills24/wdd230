@@ -17,13 +17,13 @@ h1 {
 
 main {
     max-width: 90%;
-    margin: 0 auto;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    display: grid;
-    grid-template-columns: 1fr;
-    justify-items: center;
-    grid-gap: 25px;
+    /* margin: 0 auto; */
+    margin: 25px auto 25px auto; /*top, right, bottom, left */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
 }
 img {
     background: #000;

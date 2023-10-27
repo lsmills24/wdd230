@@ -65,7 +65,7 @@
                 <h3>Information</h3>
                 <p>[Ogden, UT, USA]</p>
                 <p>[83&deg;F - Sunshine]</p>
-                <p><span class="website-counter">[ ]</span> Page Visits</p>
+                <p>Page Visits: <span class="visits"></span></p>
             </section>
         </div>
     </main>
@@ -76,15 +76,7 @@
     </footer>
 
     <script src="scripts/getdates.js"></script>
-    <!-- <script src="scripts/ham-menu.js"></script> -->
-    <script>
-        const hamButton = document.querySelector('#menu');
-        const navigation = document.querySelector('.navigation');
-
-        hamButton.addEventListener('click', () => {
-	    navigation.classList.toggle('open');
-	    hamButton.classList.toggle('open');
-        });
-    </script>
+    <script src="scripts/pagevisits.js"></script>
+    <script src="scripts/ham-menu.js"></script>
 </body>
 </html>
