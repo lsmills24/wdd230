@@ -248,3 +248,71 @@ footer p {
 #contact {
     font-size: .7em;
 }
+
+
+
+
+
+/*Discover Page Edits*/
+
+#disc-main-grid {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+    width: 80%;
+    justify-items: center;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: space-evenly
+}
+#disc-main-grid section {
+    width: 80%;
+    height: auto;
+}
+div .disc-card {
+    margin-top: 25px;
+    border-radius: 5px;
+    width: 80%;
+    height: auto;
+}
+
+.disc-card {
+    font-family: "Quattrocento Sans", Arial, Helvetica, sans-serif;
+    border: solid 2px var(--color-border);
+    background-color: var(--color-card-bg);
+    color: var(--color-card-fg);
+    /* line-height: 1.3em; */
+    box-shadow: 5px 5px 10px var(--color-fg);
+}
+.disc-card > h3 {
+    line-height: 1.4em;
+}
+.disc-card > p {
+    margin: .5em;
+    /* margin-top: .75em; */
+}
+.disc-card ul {
+    margin: 0;
+    padding: 0;
+}
+.disc-card ul li {
+    list-style-type: none;
+    /* text-align: left; */
+    /* margin-left: 25px; */
+}
+.disc-card a {
+    text-decoration: none;
+    color: var(--color-fg);
+}
+#parks-icon {
+    margin: 5px;
+}
+.disc-card figure img {
+    /* margin: 10px; */
+    width: 100%;
+}
+figure {
+    /* margin-top: 10px; */
+    margin: 10px;
+}

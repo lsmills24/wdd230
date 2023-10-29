@@ -46,4 +46,44 @@
         font-size: .9em;
     }
 
+
+
+
+    #disc-main-grid {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: minmax(1fr, auto);
+        align-items: start;
+    }
+    #disc-main-grid section, #disc-main-grid div {
+        width: 95%;
+        /* height: auto; */
+    }
+    #disc-events {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    #disc-demographics {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    #disc-economy {
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+    #disc-education {
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
+    #disc-history {
+        grid-column: 1/2;
+        grid-row: 5/6;
+    }
+    #disc-images {
+        grid-column: 2/3;
+        grid-row: 1/7;
+    }
+    figure>img:hover {
+        box-shadow: 0px 0px 5px #10132F;
+    }
+
 }

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="favicon.ico">
+    <title>North Ogden City Chamber of Commerce</title>
+    <!--https://www.northogdencity.com/-->
+    <!-- Metadata -->
+    <meta property="og:title" content="Loran Mills - WDD 230 - Chamber of Commerce Website Homepage">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://businessviewmagazine.com/wp-content/uploads/2022/02/north-ogden-utah-f.jpeg">
+    <meta property="og:url" content="https://lsmills24.github.io/wdd230/chamber/index.html">
+    <meta name="author" content="Loran Mills">
+    <meta name="description" content="Chamber Site Homepage">
+</head>
+<body>
+    <header>
+        <img id="icon" src="images/NO-icon.webp" alt="North Ogden Icon">
+        <section id="title">
+            <h1>North Ogden City<br>Chamber of Commerce</h1>
+            <!-- <h2></h2> -->
+        </section>
+
+        <nav>
+            <button id="menu"></button>
+            <ul class="navigation">
+                <li><a href="">Officials</a></li>
+                <li><a href="">Events</a></li>
+                <li><a href="">Businesses</a></li>
+                <li><a href="">Sights</a></li>
+            </ul>
+        </nav>
+        <button
+            id="darkswitch"
+            type="button"
+            data-theme-toggle
+            aria-label="Change to light theme"
+        >⬛Dark</button>
+    </header>
+    <main>
+        <div id="disc-main-grid">
+            <section class="disc-card" id="disc-events">
+                <h3>Events</h3>
+                <a href="https://www.northogdencity.com/parksrec/page/events"><img src="images/events-icon.webp" alt="North Ogden Parks and Rec Icon" width="100px" height="100px" id="parks-icon"><br>Parks and Recreation</a>
+                <p>North Shore Aquatic Center <br>-Currently Closed to Public-</p>
+                <p>Fright Night <br>10/28 - 10:00am</p>
+            </section>
+            <section class="disc-card" id="disc-demographics">
+                <h3>Demographics <br>(As of 2022 US Census)</h3>
+                <p>Population: 21,855</p>
+                <ul>Race:
+                    <li>88.3% - White</li>
+                    <li>8.2% - Hispanic/Latino</li>
+                    <li>3.5% - Other</li>
+                </ul>
+                <p>Veterans: 990</p>
+            </section>
+            <section class="disc-card" id="disc-economy">
+                <h3>Economy <br>(2017-2021)</h3>
+                <p>Persons per Household: 3.39</p>
+                <p>Median Household Income: $93,490</p>
+                <p>Median Home Value: $328,500</p>
+                <p>Median Monthly Mortgage: $1,710</p>
+                <p>Median Gross Rent: $1,095</p>
+                <p>Civilians in Labor Force (16+ y/o): 69%</p>
+                <p>Persons in Poverty: 7.5%</p>
+            </section>
+            <section class="disc-card" id="disc-education">
+                <h3>Education</h3>
+                <p>Weber High School</p>
+                <p>North Ogden Junior High</p>
+                <p>North Ogden Elementary</p>
+                <p>Bates Elementary</p>
+            </section>
+            <section class="disc-card" id="disc-history">
+                <h3>History & Sights</h3>
+                <p>Settled in 1850 <br>by Peter Skene Ogden</p>
+                <p>The name of North Ogden was incorporated in 1934.</p>
+                <p>Elevation: 4,501ft</p>
+                <p>Ben Lonond Peak Trail</p>
+                <p>Cold Springs Trout Farm</p>
+            </section>
+            <div class="disc-card" id="disc-images">
+                <figure>
+                    <img src="images/benlomond_11zon.webp" alt="Ben Lomond Peak over North Ogden" width="400px" height="auto" loading="lazy"> <!--https://sp-images.summitpost.org/393145.JPG?auto=format&fit=max&h=1000&ixlib=php-2.1.1&q=35&s=ce27733bf8897fc43582a3e4b27e36cb-->
+                    <figcaption>Ben Lomond Peak over North Ogden</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/themajor_11zon.webp" alt="The Major Flag" width="400px" height="auto" loading="lazy"> <!--https://www.sltrib.com/resizer/_CVPQb_rH9v4a_-1m7aQ8fI0TmE=/1024x650/cloudfront-us-east-1.images.arcpublishing.com/sltrib/VTN65DNPT5HY7IMXRBWGOHZRPI.jpg-->
+                    <figcaption>"The Major" Flag in Coldwater Canyon</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/weberhigh (1).webp" alt="Weber High School" width="400px" height="auto" loading="lazy"> <!--https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.sltrib.com%2Fnews%2Feducation%2F2023%2F09%2F28%2Fweber-high-principal-retires-amid%2F&psig=AOvVaw2w_uRLsyJE_jp7r0IdKfJi&ust=1698563812828000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCKijqbeZmIIDFQAAAAAdAAAAABAj-->
+                    <figcaption>Weber High School - The Weber Warriors</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/luxuryhome (1).webp" alt="Luxury Home in North Ogden" width="400px" height="auto" loading="lazy"> <!--https://photos.zillowstatic.com/fp/a239c829efe88653cbf4f96198a945d1-p_e.jpg-->
+                    <figcaption>Luxury Homes of North Ogden</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/stumpspring (1).webp" alt="Stump Spring in Bicentennial Park" width="400px" height="auto" loading="lazy"> <!--https://img-aws.ehowcdn.com/700x/www.onlyinyourstate.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-04-at-3.25.05-PM.png-->
+                    <figcaption>Stump Spring at Bicentennial Park</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/coldspringstroutfarm (1).webp" alt="Cold Springs Trout Farm" width="400px" height="auto" loading="lazy"> <!--https://fh-sites.imgix.net/sites/247/2016/05/05200413/Cold-Springs-Trout-Farm-4.jpg?auto=compress%2Cformat&w=700&h=700&fit=max-->
+                    <figcaption>Cold Springs Trout Farm</figcaption>
+                </figure>
+            </div>
+            <div class="disc-card">
+                <p>
+                    <script type = "text/javascript">
+                        /***********************************************
+                        * Display time of last visit script- by JavaScriptKit.com
+                        * This notice MUST stay intact for use
+                        * Visit JavaScript Kit at http://www.javascriptkit.com/ for this script and more
+                        ***********************************************/
+
+                        var days = 730; // days until cookie expires = 2 years.
+                        var lastvisit=new Object();
+                        var firstvisitmsg="Welcome! Let us know if you have any questions."; 
+                        var soonvisitmsg="Back so soon! Awesome!";
+                        lastvisit.subsequentvisitmsg="Back so soon! Awesome! You last visted <br><b>[displaydate]</b>"; /*<b>[displaydate]</b>*/
+
+                        lastvisit.getCookie=function(Name){ 
+                        var re=new RegExp(Name+"=[^;]+", "i"); 
+                        if (document.cookie.match(re)) 
+                        return document.cookie.match(re)[0].split("=")[1];
+                        return''; 
+                        }
+
+                        lastvisit.setCookie=function(name, value, days){ 
+                        var expireDate = new Date();
+
+                        var expstring=expireDate.setDate(expireDate.getDate()+parseInt(days));
+                        document.cookie = name+"="+value+"; expires="+expireDate.toGMTString()+"; path=/";
+                        }
+
+                        lastvisit.showmessage = function() {
+                        var wh = new Date();
+                        if (lastvisit.getCookie("visitc") == "") { 
+                        lastvisit.setCookie("visitc", wh, days); 
+                        document.write(firstvisitmsg);
+                        }
+
+                        else {
+                        var lv = lastvisit.getCookie("visitc");
+                        var lvp = Date.parse(lv);
+                        var now = new Date();
+                        now.setTime(lvp);
+                        var day = new Array("Sun", "Mon", "Tues", "Wed", "Thur", "Fri", "Sat");
+                        var month = new Array ("Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec");
+                        var dd = now.getDate();
+                        var dy = now.getDay();
+                        dy = day[dy];
+                        var mn = now.getMonth();
+                        mn = month[mn];
+                        yy = now.getFullYear();
+                        var hh = now.getHours();
+                        var ampm = "AM";
+                        if (hh >= 12) {ampm = "PM"}
+                        if (hh >12){hh = hh - 12};
+                        if (hh == 0) {hh = 12}
+                        if (hh < 10) {hh = "0" + hh};
+                        var mins = now.getMinutes();
+                        if (mins < 10) {mins = "0"+ mins}
+                        var secs = now.getSeconds();
+                        if (secs < 10) {secs = "0" + secs}
+                        var dispDate = dy + ", " + mn + " " + dd + ", " + yy + " " + hh + ":" + mins + ":" + secs + " " + ampm
+                        document.write(lastvisit.subsequentvisitmsg.replace("\[displaydate\]", dispDate))
+                        }
+
+                        lastvisit.setCookie("visitc", wh, days);
+
+                        }
+
+                        lastvisit.showmessage();
+                    </script>
+                </p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div id="document-info">
+            <p>&copy; <span id="year"></span> | Loran Mills | WDD230 Project</p>
+            <p>Last Modification: <span id="sudo"></span></p>
+        </div>
+        <div id="contact">  
+            <h3>North Ogden City<br>Chamber of Commerce</h3>
+            <hr>
+            <p>505 E 2600 N</p>
+            <p>North Ogden, UT 84414</p>
+            <p>(801) 782-7211</p>
+            <p></p>
+        </div>
+    </footer>
+
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/darkmode.js"></script>
+    <script src="scripts/windchill.js"></script>
+</body>
+</html>
