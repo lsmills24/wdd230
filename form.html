@@ -39,9 +39,9 @@
             <fieldset>
                 <legend>Information</legend>
                 <label>Username*<input type="text" id="username" name="username" required></label>
-                <label>Password*<input type="password" id="password" name="password" pattern="(A-Za-z19){8}" required></label>
-                <label>Confirm Password*<input type="password" id="confpassword" name="confpassword" pattern="(A-Za-z19){8}" required></label>
-                <label>Please Enter a Valid Email Address*<input type="email" id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" required></label>
+                <label>Password*<input type="password" id="password" name="password" pattern="[A-Za-z0-9]{8,}" required></label>
+                <label>Confirm Password*<input type="password" id="confpassword" name="confpassword" pattern="[A-Za-z0-9]{8,}" required></label>
+                <label>Email*<input type="email" id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address" required></label>
                 <!-- <label>Rating</label>
                 <div class="stars">
                     <input type="radio" id="tenstar" name="stars" value="10" required><label for="tenstar"></label>
@@ -74,7 +74,7 @@
 
 
             </fieldset>
-
+            <input type="submit" value="Sign Up">
         </form>
     </main>
 
@@ -84,8 +84,8 @@
     </footer>
     <script src="scripts/form.js"></script>
 
-    <script src="\wdd230\scripts\getdates.js"></script>
-    <script src="\wdd230\scripts\ham-menu.js"></script>
-    <script src="\wdd230\scripts\pagevisits.js"></script>
+    <script src="scripts\getdates.js"></script>
+    <script src="scripts\ham-menu.js"></script>
+    <script src="scripts\pagevisits.js"></script>
 </body>
 </html>
