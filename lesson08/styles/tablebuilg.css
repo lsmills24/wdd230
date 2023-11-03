@@ -1,0 +1,55 @@
+/* :root {
+	--back: hsla(150, 50%, 30%, 1);
+  --back2: hsla(150, 50%, 30%, .5);
+  --foredark: hsla(0,0%,10%,1);
+	--forelight: hsla(0,0%,100%,1);
+	--border: hsla(0,0%,20%,.8);
+	--borderlight: hsla(0,0%,33%,.3);
+	--shadow: hsl(0,0%,50%);
+	--zebra: hsl(0, 0%, 93%, 1);
+} */
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+table {
+	margin: 10px auto;
+    border: thin solid rgb(0, 0, 0, .1);
+	/* box-shadow: 0 0 10px black; */
+	border-collapse: collapse;
+}
+
+caption {
+    padding: 5px;
+    caption-side: bottom;
+    color: black;
+    font-size: .85rem;
+}
+
+th, td {
+    padding: 12px 20px;
+    text-align: center;
+}
+
+tr:first-child th, .highlight {
+    background-color: black;
+    color: whitesmoke;
+}
+.darker {
+    background-color: rgb(70, 70, 70);
+    color: whitesmoke;
+}
+th, td {
+    border: thin solid rgb(0, 0, 0, .1);
+}
+tr:nth-child(even) {
+    background-color: lightgray;
+}
+tr:nth-child(odd) {
+    background-color: whitesmoke;
+}
+th {
+    background-color: (0, 0, 0, 0.5);
+}
+
