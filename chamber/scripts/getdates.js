@@ -42,11 +42,15 @@ localStorage.setItem("numVisits-1s", numVisits);
 
 
 const msToDays = 84600000;
-// today's date
-const theDateToday = new Date();
 
 // initialize display elements
 const todayElement = document.querySelector("#today");
-
-// processing
+// today's date
 const today = Date.now();
+
+// references msg in discover.html to access message
+const message = document.querySelector('.msg');
+
+//localStorage
+let visitDate = new Date(window.localStorage.getItem('dateVisited-1s'));
+

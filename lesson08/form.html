@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="\wdd230\styles\normalize.css">
+    <link rel="stylesheet" href="\wdd230\styles\base.css">
+    <link rel="stylesheet" href="\wdd230\styles\larger.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <title>Form Build</title>
+    <!-- Metadata -->
+    <meta property="og:title" content="Loran Mills - WDD 230 - Form Build Assignment">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="#">
+    <meta property="og:url" content="https://lsmills24.github.io/wdd230/lesson08/form.html">
+    <meta name="author" content="Loran Mills">
+    <meta name="description" content="Form Build Assignment">
+</head>
+<body>
+    <header>
+        <img src="\wdd230\images\loran.webp" alt="Loran Mills Photo">
+        <h1>Loran Mills</h1>
+    </header>
+    <nav>
+        <button id="menu"></button>
+        <ul class="navigation">
+            <li><a href="#">Home</a></li>
+            <li><a href="lesson03/chamber-site-plan.html">Site Plan</a></li>
+            <li><a href="chamber/index.html">Chamber</a></li>
+            <li><a href="https://www.byui.edu/">BYU-Idaho</a></li>
+            <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/4?lang=eng&id=p34-p35#p34">Scripture</a></li>
+        </ul>    
+    </nav>
+
+    <main>
+        <div id="formmessage"></div>
+        <form method="get" action="record.html">
+
+            <fieldset>
+                <legend>Information</legend>
+                <label>Username*<input type="text" id="username" name="username" required></label>
+                <label>Password*<input type="password" id="password" name="password" pattern="(A-Za-z19){8}" required></label>
+                <label>Confirm Password*<input type="password" id="confpassword" name="confpassword" pattern="(A-Za-z19){8}" required></label>
+                <label>Please Enter a Valid Email Address*<input type="email" id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" required></label>
+                <!-- <label>Rating</label>
+                <div class="stars">
+                    <input type="radio" id="tenstar" name="stars" value="10" required><label for="tenstar"></label>
+                    <input type="radio" id="ninestar" name="stars" value="9" required><label for="ninestar"></label>
+                    <input type="radio" id="eightstar" name="stars" value="8" required><label for="eightstar"></label>
+                    <input type="radio" id="sevenstar" name="stars" value="7" required><label for="sevenstar"></label>
+                    <input type="radio" id="sixstar" name="stars" value="6" required><label for="sixstar"></label>
+                    <input type="radio" id="fivestar" name="stars" value="5" required><label for="fivestar"></label>
+                    <input type="radio" id="fourstar" name="stars" value="4" required><label for="fourstar"></label>
+                    <input type="radio" id="threestar" name="stars" value="3" required><label for="threestar"></label>
+                    <input type="radio" id="twostar" name="stars" value="2" required><label for="twostar"></label>
+                    <input type="radio" id="onestar" name="stars" value="1" required><label for="onestar"></label>
+                </div> -->
+                <label for="r">Rating</label>
+                <div id="rangevalue">0</div>
+                <input type="range" id="r" name="r" min="0" max="10" value="0" step="1" list="rangevalues">
+                <datalist id="rangevalues">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </datalist>
+
+
+            </fieldset>
+
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> | Loran Mills | UT, USA</p>
+        <p>Last Modification: <span id="sudo"></span></p>
+    </footer>
+    <script src="scripts/form.js"></script>
+
+    <script src="\wdd230\scripts\getdates.js"></script>
+    <script src="\wdd230\scripts\ham-menu.js"></script>
+    <script src="\wdd230\scripts\pagevisits.js"></script>
+</body>
+</html>
