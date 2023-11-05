@@ -15,9 +15,6 @@ hamButton.classList.toggle('open');
 });
 
 
-
-
-
 // Create the display variable
 const visitsDisplay = document.querySelector(".visits");
 
@@ -38,9 +35,6 @@ numVisits++;
 localStorage.setItem("numVisits-1s", numVisits);
 
 
-
-
-
 const msToDays = 84600000;
 
 // initialize display elements
@@ -54,3 +48,16 @@ const message = document.querySelector('.msg');
 //localStorage
 let visitDate = new Date(window.localStorage.getItem('dateVisited-1s'));
 
+
+//************************ JOIN FORM TIMESTAMP *******************************/
+// Function to generate a current timestamp in ISO format ("2023-11-04T12:34:56")
+function getTimestamp() {
+    const now = new Date();
+    return now.toISOString();
+}
+
+// Event listener to populate the timestamp input field when the form is submitted
+document.getElementById("joinForm").addEventListener("submit", function(event) {
+    const timestamp = document.getElementById("timeStamp");
+    timestamp.value = getTimestamp();
+});

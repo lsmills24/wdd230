@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="favicon.ico">
+    <title>North Ogden City Chamber of Commerce</title>
+    <!--https://www.northogdencity.com/-->
+    <!-- Metadata -->
+    <meta property="og:title" content="Loran Mills - WDD 230 - Chamber of Commerce Website Homepage">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://businessviewmagazine.com/wp-content/uploads/2022/02/north-ogden-utah-f.jpeg">
+    <meta property="og:url" content="https://lsmills24.github.io/wdd230/chamber/index.html">
+    <meta name="author" content="Loran Mills">
+    <meta name="description" content="Chamber Site Homepage">
+</head>
+<body>
+    <header>
+        <img id="icon" src="images/NO-icon.webp" alt="North Ogden Icon">
+        <section id="title">
+            <h1>North Ogden City<br>Chamber of Commerce</h1>
+            <!-- <h2></h2> -->
+        </section>
+
+        <nav>
+            <button id="menu"></button>
+            <ul class="navigation">
+                <li><a href="">Officials</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="">Businesses</a></li>
+                <li><a href="join.html">Join</a></li>
+            </ul>
+        </nav>
+        <button
+            id="darkswitch"
+            type="button"
+            data-theme-toggle
+            aria-label="Change to light theme"
+        >⬛Dark</button>
+    </header>
+    <main id="joingrid">
+        <div id="formmessage"></div>
+        <form id="joinForm" method="get" action="thankyou.html">
+
+            <fieldset>
+                <legend>Join Other North Ogden Businesses</legend>
+
+                <label class="top">First Name*<input type="text" id="fname" name="fname" required></label>
+                <label class="top">Last Name*<input type="text" id="lname" name="lname" required></label>
+                <label class="top">Title/Position<input type="text" id="title" name="title" pattern="^[A-Za-z\- ]{7,}$"></label>
+                <label class="top">Email*<input type="email" id="email" name="email" placeholder="someone@gmail.com" required></label>
+                <label class="top">Phone*<input type="tel" id="phone" name="phone" required></label>
+                <label class="top">Business/Organization Name*<input type="text" id="business" name="business" required></label>
+                <div>Membership Level</div>
+                    <label class="sbs"><input type="radio" name="audience" value="beginner"> NP Membership</label>
+                    <label class="sbs"><input type="radio" name="audience" value="beginner"> Bronze Membership</label>
+                    <label class="sbs"><input type="radio" name="audience" value="intermediate"> Silver Membership</label>
+                    <label class="sbs"><input type="radio" name="audience" value="advanced"> Gold Membership</label>
+                <label class="top">Business Description<textarea name="description" id="description" cols="30" rows="10" placeholder="Brief description of your business"></textarea></label>
+                <input type="hidden" name="timeStamp" id='timeStamp'>
+            </fieldset>
+            <input type="submit" value="Join Us" class="submitBtn">
+        </form>
+        <section class="card" id="membenefits">
+            <h3>Membership Level Benefits</h3>
+            <h4>NP Membersip: </h4>
+                <p>For non-profit organizations. Access to full business directory and contacts.<br>-No fee</p>
+            <h4>Bronze Membership: </h4>
+                <p>Access to discounted promotions, home page advertisements, and trainings.<br>$250/Mo</p>
+            <h4>Silver Membership: </h4>
+                <p>Full center location use and event discounts.<br>$500/Mo</p>
+            <h4>Gold Membership: </h4>
+                <p>Access to community statistics & all collected data<br>$1000/Mo</p>
+        </section>
+    </main>
+    <footer>
+        <div id="document-info">
+            <p>&copy; <span id="year"></span> | Loran Mills | WDD230 Project</p>
+            <p>Last Modification: <span id="sudo"></span></p>
+        </div>
+        <div id="contact">  
+            <h3>North Ogden City<br>Chamber of Commerce</h3>
+            <hr>
+            <p>505 E 2600 N</p>
+            <p>North Ogden, UT 84414</p>
+            <p>(801) 782-7211</p>
+            <p></p>
+        </div>
+    </footer>
+
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/darkmode.js"></script>
+    <script src="scripts/windchill.js"></script>
+</body>
+</html>
