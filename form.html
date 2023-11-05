@@ -38,25 +38,12 @@
         <form method="get" action="record.html">
 
             <fieldset>
-                <legend>Information</legend>
-                <label>Username*<input type="text" id="username" name="username" required></label>
-                <label>Password*<input type="password" id="password" name="password" pattern="[A-Za-z0-9]{8,}" required></label>
-                <label>Confirm Password*<input type="password" id="confpassword" name="confpassword" pattern="[A-Za-z0-9]{8,}" required></label>
-                <label>Email*<input type="email" id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address" required></label>
-                <!-- <label>Rating</label>
-                <div class="stars">
-                    <input type="radio" id="tenstar" name="stars" value="10" required><label for="tenstar"></label>
-                    <input type="radio" id="ninestar" name="stars" value="9" required><label for="ninestar"></label>
-                    <input type="radio" id="eightstar" name="stars" value="8" required><label for="eightstar"></label>
-                    <input type="radio" id="sevenstar" name="stars" value="7" required><label for="sevenstar"></label>
-                    <input type="radio" id="sixstar" name="stars" value="6" required><label for="sixstar"></label>
-                    <input type="radio" id="fivestar" name="stars" value="5" required><label for="fivestar"></label>
-                    <input type="radio" id="fourstar" name="stars" value="4" required><label for="fourstar"></label>
-                    <input type="radio" id="threestar" name="stars" value="3" required><label for="threestar"></label>
-                    <input type="radio" id="twostar" name="stars" value="2" required><label for="twostar"></label>
-                    <input type="radio" id="onestar" name="stars" value="1" required><label for="onestar"></label>
-                </div> -->
-                <label for="r">Rating</label>
+                <legend>Sign up for our Newsletter!</legend>
+                <label class="top">Username*<input type="text" id="username" name="username" required></label>
+                <label class="top">Password*<input type="password" id="password" name="password" pattern="[A-Za-z0-9]{8,}" required></label>
+                <label class="top">Confirm Password*<input type="password" id="confpassword" name="confpassword" pattern="[A-Za-z0-9]{8,}" required></label>
+                <label class="top">Email*<input type="email" id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address" required></label>
+                <label class="top" for="r">Rating</label>
                 <div id="rangevalue">0</div>
                 <input type="range" id="r" name="r" min="0" max="10" value="0" step="1" list="rangevalues">
                 <datalist id="rangevalues">
@@ -75,7 +62,7 @@
 
 
             </fieldset>
-            <input type="submit" value="Sign Up">
+            <input class="submitBtn" type="submit" value="Sign Up">
         </form>
     </main>
 

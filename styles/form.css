@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css2?family=Acme&family=Playfair+Display:wght@500&display=swap);
+
 /* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
 html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
@@ -17,11 +19,8 @@ body {
     font-family: Verdana, sans-serif;
 }
 
-form {
-    margin: 0 auto;
-    margin-top: 25px;
-    text-align: left;
-}
+
+
 
 /*----------- HEADER --------------*/
 
@@ -29,11 +28,82 @@ form {
 main {
     padding: 0 2%;
     min-height: 20rem;
+	text-align: left;
+}
+
+/*-------------- Form ----------------*/
+form {
+	margin-bottom: 50px;
+}
+form fieldset {
+    margin: 2rem 0 1rem 0;
+    border: 1.5px solid rgb(20, 22, 29);
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
+form legend {
+    color: rgb(20, 22, 29);
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    color: rgb(20, 22, 29);
+    font-size: .8rem;
+}
+
+form label.top input, form label.top select {
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+form label.sbs {
+    display: block;
+    padding: .75rem 0;
+    color: #555;
+}
+
+form input.submitBtn {
+    border: none;
+    background-color: #cef1c9;
+    color: rgb(20, 22, 29);
+	font-family: 'Acme', Arial, 'Times New Roman';;
+	font-size: 1.2em;
+	border: rgb(20, 22, 29) solid 1.5px;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+
+form label.top input:required {
+    border-left: darkred solid 6px;
+}
+
+form label.top input:required:valid {
+    border-left: darkgreen solid 6px;
+}
+#r {
+	width: 50%;
+	max-width: 20rem;
 }
 
 
 /*----------- FOOTER --------------*/
-
+footer {
+	font-family: 'Times New Roman', Times, serif;
+}
 
 
 
@@ -43,42 +113,3 @@ main {
   display: table;
   clear: both;
 }
-
-
-
-/* stars */
-/* input[type="radio"] {
-	display: none;
-	position: relative;
-	caret-color: rgba(0, 0, 0, 0);
-}
-
-.stars {
-	display: flex;
-	flex-direction: row-reverse;
-	justify-content: left;
-}
-
-.stars > label {
-	color: gold;
-	width: 30px;
-	height: 30px;
-	font-size: 2rem;
-	margin-left: 5px;
-	display: flex;
-	align-items: center; */
-    /* remove blinking cursor*/
-	/* caret-color: rgba(0, 0, 0, 0); 
-}
-
-.stars > label:hover {
-	color: #000;
-}
-
-.stars > label::before {
-	content: "\2606";
-}
-
-.stars input:checked ~ label::before {
-	content: "\2605";
-} */
