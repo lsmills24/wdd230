@@ -1,0 +1,38 @@
+{
+    "familyName" : "Mills",
+    "dateMovedIn" : 2020,
+    "numRecords" : 6,
+    "visitedBishop" : "y",
+    "famMembers" : [
+        {
+            "name" : "Christian",
+            "gender" : "m",
+            "birthdate" : "July 3, 1975"
+        },
+        {
+            "name" : "Mindi",
+            "gender" : "f",
+            "birthdate" : "March 23, 1978"
+        },
+        {
+            "name" : "Owen",
+            "gender" : "m",
+            "birthdate" : "July 21, 1999"
+        },
+        {
+            "name" : "Loran",
+            "gender" : "m",
+            "birthdate" : "June 14, 2002"
+        },
+        {
+            "name" : "Jensen",
+            "gender" : "m",
+            "birthdate" : "April 21, 2004"
+        },
+        {
+            "name" : "Emily",
+            "gender" : "f",
+            "birthdate" : "May 12, 2006"
+        }
+    ]
+}
