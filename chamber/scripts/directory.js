@@ -34,7 +34,7 @@ const displayMembers = (members) => {
         icon.setAttribute('src', member.image);
         icon.setAttribute('alt', `Business Icon for ${member.name}`);
         icon.setAttribute('loading', 'lazy');
-        icon.setAttribute('width', '340');
+        icon.setAttribute('width', '200px');
         // icon.setAttribute('height', '440');
 
         tile.appendChild(name);
