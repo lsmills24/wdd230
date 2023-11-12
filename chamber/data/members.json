@@ -9,11 +9,11 @@
             "membership" : "NP"
         },
         {
-            "name" : "Coldwater Animal Hispital",
-            "address" : "2671 N Washington Blvd, North Ogden, UT 84414",
-            "phone" : "8017829400",
-            "website" : "https://www.thrivepetcare.com/locations/utah/north-ogden/coldwater-animal-hospital",
-            "image" : "https://www.chamberofcommerce.com/show_image.php?zc=2&h=200&w=200&src=https://s3.eu-central-1.amazonaws.com/uberall-userpics-prod/3628187/medium_hAuPhpQ10R.png",
+            "name" : "Cold Springs Trout Farm",
+            "address" : "2284 Fruitland Dr, Ogden, UT 84414",
+            "phone" : "8017827282",
+            "website" : "https://coldspringstroutfarm.com/",
+            "image" : "https://fh-sites.imgix.net/sites/6924/2023/10/06162248/Cold-Springs-Trout-Farm-Logo-2-1.png?auto=compress%2Cformat&w=240&fit=max",
             "membership" : "Silver"
         },
         {
@@ -49,11 +49,11 @@
             "membership" : "Gold"
         },
         {
-            "name" : "Mills Brothers Property Services",
+            "name" : "Mills Brothers Guitars", 
             "address" : "965 E 2850 N, North Ogden, UT 84414",
             "phone" : "3854002653",
-            "website" : "#",
-            "image" : "#",
+            "website" : "https://lsmills24.github.io/WebFundamentals/personal_website/index.html",
+            "image" : "https://lsmills24.github.io/WebFundamentals/personal_website/imgs/mills_brothers_logo.png",
             "membership" : "Bronze"
         },
         {
