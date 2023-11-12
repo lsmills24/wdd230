@@ -104,4 +104,13 @@
     form label textarea {
         width: 100%;
     }    
+
+    /************* Directory Page Edits **************/
+    .grid {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+    }
+    .grid h3 {
+        line-height: 1.5rem;
+    }
 }

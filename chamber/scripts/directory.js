@@ -37,6 +37,8 @@ const displayMembers = (members) => {
         icon.setAttribute('width', '200px');
         // icon.setAttribute('height', '440');
 
+        tile.setAttribute('class', 'card');
+
         tile.appendChild(name);
         tile.appendChild(icon);
         tile.appendChild(address);
@@ -46,4 +48,28 @@ const displayMembers = (members) => {
 
         tiles.appendChild(tile);
     });
+}
+
+
+
+
+
+// View changer - grid & list
+const gridbutton = document.querySelector("#grid");
+const listbutton = document.querySelector("#list");
+const display = document.querySelector("article");
+
+// The following code could be written cleaner. How? We may have to simplfiy our HTMl and think about a default view.
+
+gridbutton.addEventListener("click", () => {
+	// example using arrow function
+	display.classList.add("grid");
+	display.classList.remove("list");
+});
+
+listbutton.addEventListener("click", showList); // example using defined function
+
+function showList() {
+	display.classList.add("list");
+	display.classList.remove("grid");
 }
