@@ -436,13 +436,14 @@ form label.top input:required:valid {
     background-color: #AAC4E0;
     font-family: 'Merriweather', Arial, 'Times New Roman';
     position: relative;
+    /* width: 50%; */
 }
 .display-view #grid {
     color: #10132F;
     position: absolute;
     padding: 1rem;
     font-weight: 700;
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     top: 25%;
     left: 25%;
     transform: translate(-25%, -25%);
@@ -452,10 +453,14 @@ form label.top input:required:valid {
     position: absolute;
 	padding: 1rem;
 	font-weight: 700;
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     top: 25%;
     right: 25%;
     transform: translate(25%, -25%);
+}
+
+article {
+    margin-top: 1rem;
 }
 
 /* Grid View */
