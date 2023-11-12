@@ -1,0 +1,76 @@
+{
+    "members" : [
+        {
+            "name" : "The Church of Jesus Christ of Latter-day Saints",
+            "address" : "900 E 2850 N, North Ogden, UT 84414",
+            "phone" : "8017862929",
+            "website" : "https://www.churchofjesuschrist.org/?lang=eng",
+            "image" : "https://scontent.fslc3-1.fna.fbcdn.net/v/t1.6435-9/91910368_10158195206956550_2699950767367782400_n.png?_nc_cat=101&ccb=1-7&_nc_sid=7a1959&_nc_ohc=jzJETGFjZGUAX-IcQJm&_nc_ht=scontent.fslc3-1.fna&oh=00_AfAeHKttOhTc2jSyBdditVXSuC_e_gL4-RMr7JIgo14Vrw&oe=6577A91D",
+            "membership" : "NP"
+        },
+        {
+            "name" : "Coldwater Animal Hispital",
+            "address" : "2671 N Washington Blvd, North Ogden, UT 84414",
+            "phone" : "8017829400",
+            "website" : "https://www.thrivepetcare.com/locations/utah/north-ogden/coldwater-animal-hospital",
+            "image" : "https://www.chamberofcommerce.com/show_image.php?zc=2&h=200&w=200&src=https://s3.eu-central-1.amazonaws.com/uberall-userpics-prod/3628187/medium_hAuPhpQ10R.png",
+            "membership" : "Silver"
+        },
+        {
+            "name" : "CoolVu - Commercial & Home Window Tint",
+            "address" : "3878 N Jackson Ave, North Ogden, UT 84414",
+            "phone" : "3852623933",
+            "website" : "https://www.coolvu.com/",
+            "image" : "https://www.chamberofcommerce.com/show_image.php?zc=2&w=250&src=https://d3olisf0d4lh9v.cloudfront.net/place/USA/2026016541/267658165.jpeg",
+            "membership" : "Silver"
+        },
+        {
+            "name" : "Farm Bureau Financial Services: Tate Secrist",
+            "address" : "2271 N Washington Blvd Ste 201, North Ogden, UT 84414",
+            "phone" : "8018960151",
+            "website" : "https://www.fbfs.com/find-an-agent/tatesecrist",
+            "image" : "https://www.chamberofcommerce.com/show_image.php?zc=2&w=250&src=https://a.mktgcdn.com/p/Tl0h3aiLLpoVa31xVNj1PgQbdKtV6mem2Xdv29Hvr7s/495x495.jpg",
+            "membership" : "Silver"
+        },
+        {
+            "name" : "Lindquist's North Ogden Mortuary",
+            "address" : "2140 N Washington Rd Blvd, North Ogden, UT 84414",
+            "phone" : "8017826666",
+            "website" : "https://www.lindquistmortuary.com/",
+            "image" : "https://www.chamberofcommerce.com/show_image.php?zc=2&w=250&src=https://d3olisf0d4lh9v.cloudfront.net/place/5142875/111842558.jpg",
+            "membership" : "Gold"
+        },
+        {
+            "name" : "Maverik Adventure's First Stop",
+            "address" : "2535 N 400 E, North Ogden, UT 84414",
+            "phone" : "8017825361",
+            "website" : "https://maverik.com/",
+            "image" : "https://maverik.com/images/maverik-logo.svg",
+            "membership" : "Gold"
+        },
+        {
+            "name" : "Mills Brothers Property Services",
+            "address" : "965 E 2850 N, North Ogden, UT 84414",
+            "phone" : "3854002653",
+            "website" : "#",
+            "image" : "#",
+            "membership" : "Bronze"
+        },
+        {
+            "name" : "Rands Roofing Inc",
+            "address" : "2941 N 1050 E, North Ogden, UT 84414",
+            "phone" : "8017821829",
+            "website" : "https://www.randsroofing.com/",
+            "image" : "https://images.squarespace-cdn.com/content/v1/567488711115e0704ea2c92e/1450477984960-6OG5MBBSHSB56KUD9KFS/RANDS.png?format=1500w",
+            "membership" : "Bronze"
+        }, 
+        {
+            "name" : "White Diamonds",
+            "address" : "1638 N Washington Blvd Ste 202, North Ogden, UT 84414",
+            "phone" : "8018511124",
+            "website" : "https://whitediamondsutah.com/",
+            "image" : "https://www.chamberofcommerce.com/show_image.php?zc=2&h=200&w=200&src=/images/image-system/no-image.png",
+            "membership" : "Silver"
+        }
+    ]
+}

@@ -1,9 +1,6 @@
 const baseURL = "https://lsmills24.github.io/wdd230/";
 const linksURL = "https://lsmills24.github.io/wdd230/data/links.json"
 
-const cards = document.querySelector('#cards');
-
-
 async function getlinkdata() {
     const response = await fetch(linksURL);
     const data = await response.json();

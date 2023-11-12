@@ -44,36 +44,9 @@
         >⬛Dark</button>
     </header>
     <main>
-        <div class="hero">
-            <!-- <img class="hero-img" src="images/mountains.webp" alt="Ben Lomond Peak over North Ogden"> -->
-            <picture>
-                <source media="(max-width: 400px)" srcset="images/wdd230-org-small.webp">
-                <source media="(max-width: 960px)" srcset="images/wdd230-org-medium.webp">
-                <img src="images/wdd230-org-large.webp" alt="WDD230 Test Hero Image" width="1280" height="853">
-            </picture>
-            <a id="call-action" href="#">CALL TO ACTION</a>
-        </div>
-        <div id="main-grid">
-            <section class="card" id="events">
-                <h3>Current Events</h3>
-            </section>
-            <section class="card" id="weather">
-                <h3>Weather</h3>
-                <p>[Information]</p>
-                <p>[Ogden, UT, USA]</p>
-                <p>⛅ <span id="temp">48</span>°F & <span id="windspeed">12</span>mph Wind</p>
-                <p>Feels Like <span id="feelsLike"></span>°F</p>
-            </section>
-            <section class="card" id="activities">
-                <h3>Activities</h3>
-            </section>
-            <section class="card" id="spotlight">
-                <h3>Member Spotlights</h3>
-            </section>
-            <section class="card" id="extras">
-                <h3>Extras</h3>
-            </section>
-        </div>
+        <section class="card" id="directory">
+            <h3>Business Directory</h3>
+        </section>
     </main>
     <footer>
         <div id="document-info">
@@ -93,5 +66,6 @@
     <script src="scripts/getdates.js"></script>
     <script src="scripts/darkmode.js"></script>
     <script src="scripts/windchill.js"></script>
+    <script src="scripts/directory.js"></script>
 </body>
 </html>
