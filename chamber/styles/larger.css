@@ -113,4 +113,8 @@
     .grid h3 {
         line-height: 1.5rem;
     }
+
+    .list section {
+        grid-template-columns: 2fr 1fr 1fr 1fr;
+    }
 }

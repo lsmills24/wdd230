@@ -488,7 +488,7 @@ form label.top input:required:valid {
 }
 .list section {
 	display: grid;
-	grid-template-columns: 2fr 1fr 1fr;
+	grid-template-columns: 2fr 1fr;
     grid-gap: .2rem;
     justify-content: space-evenly;
     justify-items: center;
