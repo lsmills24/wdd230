@@ -168,7 +168,13 @@ section ul li::before {
     color: #374f2f;
 }
 
-#weather-info {
+/* #weather-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+} */
+figure {
     display: flex;
     justify-content: center;
     align-items: center;
