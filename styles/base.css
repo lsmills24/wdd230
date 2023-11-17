@@ -168,6 +168,14 @@ section ul li::before {
     color: #374f2f;
 }
 
+#weather-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+
 /* imbedded map */
 iframe {
     margin: 25px;
