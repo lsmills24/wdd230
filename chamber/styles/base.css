@@ -31,6 +31,7 @@ body {
 
 p {
     font-family: "Quattrocento Sans", Arial, Helvetica, sans-serif;
+    line-height: 1.1rem;
 }
 
 header {
@@ -149,6 +150,21 @@ button {
 }
 /* End Dark Mode Switch */
 
+#reminder-banner {
+    /* display: none; */
+    padding: .5rem;
+    background-color: darkred;
+    color: white;
+    font-family: 'Merriweather', Arial, 'Times New Roman';
+    position: relative;
+}
+.close-btn {
+    position: absolute;
+    top: .5rem;
+    right: .5rem;
+    cursor: pointer;
+}
+
 /* Main */
 main {
     margin: 0 auto;
@@ -170,9 +186,13 @@ h3 {
 }
 #main-grid section {
     width: 80%;
-    height: 200px;
+    height: 250px;
+    /* height: auto; */
 }
 
+#weather {
+    text-transform: capitalize;
+}
 
 /* HERO - Review and Edit */
 .hero {
@@ -218,6 +238,11 @@ section h3 {
     background-color: var(--color-card-bg);
     color: var(--color-card-fg);
     line-height: 1em;
+}
+.card a {
+    text-decoration: none;
+    color: var(--color-fg);
+    font-family: "Quattrocento Sans", Arial, Helvetica, sans-serif;
 }
 
 /* Footer */

@@ -14,21 +14,27 @@ navigation.classList.toggle('open');
 hamButton.classList.toggle('open');
 });
 
-//*************** Display number of page visits ************************************** */
-// Create the display variable
-// const visitsDisplay = document.querySelector(".visits");
-// Get stored value in localstorage, if missing then assign 0 to it
-// let numVisits = Number(window.localStorage.getItem("numVisits-1s")) || 0;
-// determine if this is the first visit or not
-// if (numVisits !== 0) {
-//     visitsDisplay.textContent = numVisits;
-// } else {
-//     visitsDisplay.textContent = 'This is your first visit. 👋 Welcome!';
-// }
-// increase # of visits by one 
-// numVisits++;
-// Store new visit # into local storage key=numVisits-1s
-// localStorage.setItem("numVisits-1s", numVisits);
+
+//**************************** Meeting Banner ********************************/
+// Only display on Monday-Wednesday (1-3)
+document.addEventListener("DOMContentLoaded", function() {
+    const day = new Date().getDay();
+    const banner = document.querySelector('#reminder-banner');
+    // console.log(day);
+
+    // Sun(0), Mon(1), Tues(2), Wed(3), Thurs(4), Fri(5), Sat(6)
+    if ((day >= 1) && (day <= 3)) {
+        banner.style.display = 'block'; // Show banner
+    } else {
+        banner.style.display = 'none'; // Hide banner
+    }
+});
+
+function closeBanner() {
+    // Hide the banner when the close button is clicked
+    var banner = document.querySelector('#reminder-banner');
+    banner.style.display = 'none';
+}
 
 
 //********************* Display Visit Messages ************************************** */
