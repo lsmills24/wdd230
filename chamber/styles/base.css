@@ -18,20 +18,11 @@
     --color-form-bg: rgb(225, 225, 225);
 }
 
-
 body {
-    /* max-width: 80%; */
     background-color: var(--color-bg);
     color: var(--color-fg);
-    /* background-color: #F2FAFF; */
     margin: 0 auto;
     text-align: center;
-    /* color: #10132F; */
-}
-
-p {
-    font-family: "Quattrocento Sans", Arial, Helvetica, sans-serif;
-    line-height: 1.1rem;
 }
 
 header {
@@ -41,7 +32,6 @@ header {
     padding-bottom: 20px;
     background-color: #10132F;
     color: whitesmoke;
-    /* font-size: 1.5em; */
     font-family: 'Merriweather', Arial, 'Times New Roman';
     display: grid;
     grid-template-columns: 1fr 2fr 2fr;
@@ -66,6 +56,10 @@ h1 {
     margin: 0;
     font-family: 'Merriweather', Arial, 'Times New Roman';
 }
+p {
+    font-family: "Quattrocento Sans", Arial, Helvetica, sans-serif;
+    line-height: 1.2rem;
+}
 
 nav ul {
     list-style: none;
@@ -79,7 +73,6 @@ nav a {
 }
 /* HamButton Nav */
 #menu {
-    /* font-size: 1.25rem; */
 	border: 1px solid rgba(0,0,0,.3);
 	padding: 3px 7px 6px;
 	background-color: #F2FAFF;
@@ -140,7 +133,6 @@ button {
     position: absolute;  
   }
 #darkswitch {
-    /* font-size: 1rem; */
     border: 1px solid rgba(0,0,0,.3);
 	padding: 4px 2px;
 	background-color: #F2FAFF;
@@ -151,7 +143,6 @@ button {
 /* End Dark Mode Switch */
 
 #reminder-banner {
-    /* display: none; */
     padding: .5rem;
     background-color: darkred;
     color: white;
@@ -187,7 +178,6 @@ h3 {
 #main-grid section {
     width: 80%;
     height: 250px;
-    /* height: auto; */
 }
 
 #weather {
@@ -198,10 +188,6 @@ h3 {
 .hero {
     position: relative;
 }
-/* .hero-img {
-    width: 100%;
-    height: auto;
-} */
 .hero img {
     width: 100%;
     height: auto;
@@ -216,19 +202,19 @@ h3 {
     padding: 7.5px;
     border: solid 1px black;
     position: absolute;
-    top: 50%;
+    top: 75%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -75%);
 }
 
 /* Main Body Content */
 section {
-    margin-top: 25px;
+    margin: 25px 0px 0px 0px;
     border-radius: 5px;
 }
-section h3 {
+section h3, div h3 {
     margin: 0;
-    padding: 10px;
+    padding: 15px;
     background-color: var(--color-fg);
     color: var(--color-bg);
     border-bottom: solid 2px var(--color-border);
@@ -249,7 +235,6 @@ section h3 {
 footer {
     margin-top: 25px;
     padding: 20px;
-    /* padding-bottom: 25px; */
     background-color: #10132F;
     color: white;
     display: grid;
@@ -277,9 +262,6 @@ footer p {
 }
 
 
-
-
-
 /*******************Discover Page Edits******************/
 
 #disc-main-grid {
@@ -298,7 +280,7 @@ footer p {
     height: auto;
 }
 div .disc-card {
-    margin-top: 25px;
+    margin: 25px 0px 0px 0px;
     border-radius: 5px;
     width: 80%;
     height: auto;
@@ -312,15 +294,10 @@ div .disc-card {
     border: solid 2px var(--color-border);
     background-color: var(--color-card-bg);
     color: var(--color-card-fg);
-    /* line-height: 1.3em; */
     box-shadow: 5px 5px 10px var(--color-fg);
-}
-.disc-card > h3 {
-    line-height: 1.4em;
 }
 .disc-card > p {
     margin: .5em;
-    /* margin-top: .75em; */
 }
 .disc-card ul {
     margin: 0;
@@ -328,27 +305,21 @@ div .disc-card {
 }
 .disc-card ul li {
     list-style-type: none;
-    /* text-align: left; */
-    /* margin-left: 25px; */
 }
 .disc-card a {
     text-decoration: none;
     color: var(--color-fg);
 }
-#parks-icon {
-    margin: 5px;
-}
 .disc-card figure img {
-    /* margin: 10px; */
     width: 100%;
 }
 figure {
-    /* margin-top: 10px; */
     margin: 10px;
 }
-
-
-
+section img {
+    margin: 5px;
+    width: 35%;
+}
 
 
 /******************** Join and Thankyou page edits ******************/
@@ -363,7 +334,7 @@ form {
 form fieldset {
     margin: 2rem 0;
     border: 1.5px solid var(--color-fg);
-    border-radius: 10px;
+    border-radius: 5px;
     padding: .5rem 2%;
 }
 form legend {
@@ -445,9 +416,6 @@ form label.top input:required:valid {
 }
 
 
-
-
-
 /*************** Directory Page Edits *******************/
 #directory-title {
     margin: 1.5rem;
@@ -461,7 +429,6 @@ form label.top input:required:valid {
     background-color: #AAC4E0;
     font-family: 'Merriweather', Arial, 'Times New Roman';
     position: relative;
-    /* width: 50%; */
 }
 .display-view #grid {
     color: #10132F;

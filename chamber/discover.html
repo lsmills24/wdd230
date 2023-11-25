@@ -36,20 +36,49 @@
                 <li><a href="join.html">Join</a></li>
             </ul>
         </nav>
-        <button
-            id="darkswitch"
-            type="button"
-            data-theme-toggle
-            aria-label="Change to light theme"
-        >⬛Dark</button>
+        <button id="darkswitch" type="button" data-theme-toggle aria-label="Change to light theme">⬛Dark</button>
     </header>
     <main>
         <div id="disc-main-grid">
-            <section class="disc-card" id="events">
-                <h3>Events</h3>
+            <div class="disc-card" id="disc-greetings">
+                <h3>Greetings!</h3>
+                <p>
+                    <span class="msg"></span>
+                </p>
+            </div>
+            <section class="disc-card" id="disc-events">
+                <h3>Annual Events</h3>
                 <a href="https://www.northogdencity.com/parksrec/page/events"><img src="images/events-icon.webp" alt="North Ogden Parks and Rec Icon" id="parks-icon"><br>Parks and Recreation</a>
-                <p>North Shore Aquatic Center <br>-Currently Closed to Public-</p>
-                <p>Fright Night <br>10/28 - 10:00am</p>
+                <p>North Shore Aquatic Center <br>-Currently Closed to Public- <br>2024 Opening May 25 - Sept. 2 (Subject to Change)</p>
+                <img src="https://static.wixstatic.com/media/3360f7_dafe157a2dc045e0b2ca59e4cf51962c~mv2.png/v1/fill/w_174,h_174,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Artboard%201%20copy.png" alt="North Ogden Cherry Days Logo" id="cherrydaysicon">
+                <p>North Ogden Cherry Days <br>July 1st Through July 8th <br>Includes Parade, Fireworks, etc.</p>
+                <img src="https://www.webercountyfair.org/wp-content/uploads/2023/05/Asset-4@3x.png" alt="Weber County Fair Logo">
+                <p>Weber County Fair: <br>Sat, Nov. 18 - Sun, Nov. 19</p>
+            </section>
+            <section class="disc-card" id="disc-history">
+                <h3>History & Sights</h3>
+                <p>Settled in 1850 <br>by Peter Skene Ogden</p>
+                <p>The name of North Ogden was incorporated in 1934.</p>
+                <p>Elevation: 4,501ft</p>
+                <p>Ben Lonond Peak Trail</p>
+                <p>Cold Springs Trout Farm</p>
+            </section>
+            <section class="disc-card" id="disc-education">
+                <h3>Education</h3>
+                <p>Weber High School</p>
+                <p>North Ogden Junior High</p>
+                <p>North Ogden Elementary</p>
+                <p>Bates Elementary</p>
+            </section>
+            <section class="disc-card" id="disc-economy">
+                <h3>Economy <br>(2017-2021)</h3>
+                <p>Persons per Household: 3.39</p>
+                <p>Median Household Income: $93,490</p>
+                <p>Median Home Value: $328,500</p>
+                <p>Median Monthly Mortgage: $1,710</p>
+                <p>Median Gross Rent: $1,095</p>
+                <p>Civilians in Labor Force (16+ y/o): 69%</p>
+                <p>Persons in Poverty: 7.5%</p>
             </section>
             <section class="disc-card" id="disc-demographics">
                 <h3>Demographics <br>(As of 2022 US Census)</h3>
@@ -62,32 +91,8 @@
                 </ul>
                 <p>Veterans: 990</p>
             </section>
-            <section class="disc-card" id="disc-economy">
-                <h3>Economy <br>(2017-2021)</h3>
-                <p>Persons per Household: 3.39</p>
-                <p>Median Household Income: $93,490</p>
-                <p>Median Home Value: $328,500</p>
-                <p>Median Monthly Mortgage: $1,710</p>
-                <p>Median Gross Rent: $1,095</p>
-                <p>Civilians in Labor Force (16+ y/o): 69%</p>
-                <p>Persons in Poverty: 7.5%</p>
-            </section>
-            <section class="disc-card" id="disc-education">
-                <h3>Education</h3>
-                <p>Weber High School</p>
-                <p>North Ogden Junior High</p>
-                <p>North Ogden Elementary</p>
-                <p>Bates Elementary</p>
-            </section>
-            <section class="disc-card" id="disc-history">
-                <h3>History & Sights</h3>
-                <p>Settled in 1850 <br>by Peter Skene Ogden</p>
-                <p>The name of North Ogden was incorporated in 1934.</p>
-                <p>Elevation: 4,501ft</p>
-                <p>Ben Lonond Peak Trail</p>
-                <p>Cold Springs Trout Farm</p>
-            </section>
             <div class="disc-card" id="disc-images">
+                <h3>North Ogden Vistas</h3>
                 <figure>
                     <img src="images/benlomond.webp" alt="Ben Lomond Peak over North Ogden" width="400" loading="lazy"> <!--https://sp-images.summitpost.org/393145.JPG?auto=format&fit=max&h=1000&ixlib=php-2.1.1&q=35&s=ce27733bf8897fc43582a3e4b27e36cb-->
                     <figcaption>Ben Lomond Peak over North Ogden</figcaption>
@@ -113,11 +118,7 @@
                     <figcaption>Cold Springs Trout Farm</figcaption>
                 </figure>
             </div>
-            <div class="disc-card">
-                <p>
-                    <span class="msg"></span>
-                </p>
-            </div>
+            
         </div>
     </main>
     <footer>

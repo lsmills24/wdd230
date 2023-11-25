@@ -33,7 +33,7 @@
     }
     #main-grid section {
         width: 100%;
-        /* height: 200px; */
+        /* height: 350px; */
     }
     #spotlight {
         grid-column: 1/3;
@@ -52,35 +52,26 @@
     #disc-main-grid {
         grid-template-columns: 1fr 1fr;
         /* grid-template-rows: minmax(mincontent, auto); */
+        grid-gap: 2rem;
         align-items: start;
+
     }
     #disc-main-grid section, #disc-main-grid div {
         width: 95%;
         /* height: auto; */
     }
-    #disc-events {
-        grid-column: 1/2;
-        grid-row: 1/2;
+    #disc-greetings p {
+        line-height: 3rem;
     }
-    #disc-demographics {
-        grid-column: 1/2;
-        grid-row: 2/3;
-    }
-    #disc-economy {
-        grid-column: 1/2;
-        grid-row: 3/4;
-    }
-    #disc-education {
-        grid-column: 1/2;
-        grid-row: 4/5;
-    }
-    #disc-history {
-        grid-column: 1/2;
-        grid-row: 5/6;
+    #disc-history p, #disc-education p, #disc-economy p, #disc-demographics p {
+        line-height: 1.5rem;
     }
     #disc-images {
         grid-column: 2/3;
         grid-row: 1/7;
+    }
+    .disc-card figure img {
+        width: 80%;
     }
     figure>img:hover {
         box-shadow: 0px 0px 5px #10132F;
