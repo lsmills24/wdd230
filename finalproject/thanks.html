@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="favicon.ico">
+    <title>WDD 230 Final Project Thank You Page- Loran Mills</title>
+    <!-- Social Media Metadata -->
+    <meta property="og:title" content="Loran Mills - WDD 230 - Wed Frontend Development - Final Project">
+    <meta property="og:type" content="website">
+    <meta property="image" content="#"> <!-- Finish This Image Data -->
+    <meta property="og:url" content="https://lsmills24.github.io/wdd230/finalproject/thanks.html"> 
+    <meta name="author" content="Loran Mills">
+    <meta name="description" content="Loran Mills's Final Project Thank You Page for WDD230 Web Frontend Development">
+</head>
+<body>
+    <header>
+        <nav>
+            <button id="menu"></button>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="rentals.html">Rentals</a></li>
+                <li><a href="reservations.html">Reservations</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <img id="icon" src="images/scoots-logo.webp" alt="Scoots Logo">
+    </header>
+    <div class="hero">
+        <picture>
+            <source media="(max-width: 360px)" srcset="images/beach-shop-wide-small.webp">
+            <source media="(max-width: 720px)" srcset="images/beach-shop-wide-medium.webp">
+            <img src="images/beach-shop-wide-thin.webp" alt="Scoots Rental Beach Location" width="1440" height="360" loading="lazy"> <!--Photo by Leonardo Rossatti from Pexels: https://www.pexels.com/photo/photo-of-wooden-cabin-on-beach-near-coconut-trees-2598683/-->
+        </picture>
+    </div>
+    <main>
+        <h1 class="title thanks">Thank You for completing the form! <br>We will contact you regarding your request within 1 business day.</h1>
+    </main> 
+    <footer>
+        <div class="socials">
+            <img id="ftr-icon" src="images/scoots-logo-s.webp" alt="Scoots S Logo">
+
+            <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook-icon.webp" alt="Facebook"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="images/instagram-icon.webp" alt="Instagram"></a>
+            <a href="https://twitter.com/" target="_blank"><img src="images/twitter-icon.webp" alt="Twitter"></a>
+            <a href="https://www.linkedin.com/" target="_blank"><img src="images/linkedin-icon.webp" alt="LinkedIn"></a>
+            
+            <p>77645 San Miguel de Cozumel <br>Quintana Roo, Mexico <br>(123)555-1234</p>
+        </div>
+    </footer>
+
+    <script src="scripts/hambutton.js"></script>
+    <script src="scripts/weather.js"></script>
+</body>
+</html>

@@ -1,0 +1,107 @@
+{
+    "rentals" : [
+        {
+            "type" : "Honda Metro Scooter",
+            "image" : "https://wieck-honda-production.s3.amazonaws.com/photos/61ba640af9f97b0eb318d450b54ff0248ebd7cdf/thumbnail-364x204.jpg",
+            "persons" : "1",
+            "reservation" : [
+                {
+                    "half" : "$20",
+                    "full" : "$30"
+                }
+            ],
+            "walkin" : [
+                {
+                    "half" : "$25",
+                    "full" : "$35"
+                }
+            ]
+        },
+        {
+            "type" : "Honda Dio Scooter",
+            "image" : "https://www.honda-mideast.com/en/-/media/honda/motorcycle/scooters/dio/large-mobile.jpg",
+            "persons" : "2",
+            "reservation" : [
+                {
+                    "half" : "$30",
+                    "full" : "$40"
+                }
+            ],
+            "walkin" : [
+                {
+                    "half" : "$35",
+                    "full" : "$45"
+                }
+            ]
+        },
+        {
+            "type" : "Honda PCX150 Scooter",
+            "image" : "https://zagamotos.com/wp-content/uploads/2022/01/pcx-150-dlx-blanco.jpg",
+            "persons" : "2",
+            "reservation" : [
+                {
+                    "half" : "$40",
+                    "full" : "$50"
+                }
+            ],
+            "walkin" : [
+                {
+                    "half" : "$45",
+                    "full" : "$55"
+                }
+            ]
+        },
+        {
+            "type" : "Honda Pioneer ATV",
+            "image" : "https://powersports.honda.com/sxs/recutility/pioneer-700-4/-/media/products/family/pioneer-700-4/trims/trim-main/pioneer-700-4/2024/2024-pioneer-700-4-black_forest_green-650x380.png",
+            "persons" : "4",
+            "reservation" : [
+                {
+                    "half" : "$50",
+                    "full" : "$70"
+                }
+            ],
+            "walkin" : [
+                {
+                    "half" : "$60",
+                    "full" : "$80"
+                }
+            ]
+        },
+        {
+            "type" : "Jeep Wrangler - 2 door",
+            "image" : "https://www.cars.com/i/large/in/v2/stock_photos/90cd7865-0dd7-43b7-9aa2-ae440ca71ef6/bb6e65a3-8cfe-46e2-855b-43a6bb694cab.png",
+            "persons" : "4",
+            "reservation" : [
+                {
+                    "half" : "$60",
+                    "full" : "$85"
+                }
+            ],
+            "walkin" : [
+                {
+                    "half" : "$70",
+                    "full" : "$90"
+                }
+            ]
+        },
+        {
+            "type" : "Jeep Wrangler - 4 door with A/C",
+            "image" : "https://www.cars.com/i/large/in/v2/stock_photos/a6c72cc9-17ee-4898-9807-89fc3dafc99d/de81fd81-2599-42be-a6bb-fc739155a5aa.png",
+            "persons" : "5",
+            "reservation" : [
+                {
+                    "half" : "$70",
+                    "full" : "$100"
+                }
+            ],
+            "walkin" : [
+                {
+                    "half" : "$85",
+                    "full" : "$125"
+                }
+            ]
+        }
+        
+    ]
+}

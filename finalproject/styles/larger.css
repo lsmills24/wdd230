@@ -1,0 +1,57 @@
+@media screen and (min-width: 960px) {
+    #menu {
+        display: none;
+    }
+    .navigation {
+        flex-direction: row;
+    }
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+    .navigation li a {
+        font-size: 2rem;
+    }
+    nav a {
+        font-size: 2rem;
+    }
+    nav ul li {
+        margin-left: 20px;
+        list-style-type: none;
+        font-family: 'Permanent Marker', 'Franklin Gothic Medium', Arial, sans-serif;
+    }
+    #icon {
+        width: 70%;
+        max-width: 100px;
+
+    }
+
+    .welcome {
+        margin: 0 50px;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #ftr-icon {
+        width: 20%;
+    }
+    footer p {
+        font-size: 1.2rem;
+    }
+
+    table {
+        font-size: 1rem;
+    }
+    th, td {
+        padding: 15px 30px;
+    }
+
+    /*********** Form & Thanks ************/
+    form {
+        width: 70%;
+        margin: 0 auto;
+    }
+    .thanks {
+        font-size: 3rem;
+        margin: 50px 0 350px 0;
+    }
+}

@@ -1,0 +1,55 @@
+@media screen and (min-width: 640px) {
+    #menu {
+        height: 35px;
+        width: 35px;    
+        left: 1rem;
+        top: 1rem;
+    }
+
+    #icon {
+        width: 20%;
+    }
+
+    .welcome {
+        grid-template-columns: 1fr 1fr;
+    }
+    #weather-icon, #tom-weather-icon {
+        width: 15%;
+    }
+    /* iframe {
+        width: 80%;
+        height: 200px;
+    } */
+    .gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    footer p {
+        font-size: .8rem;
+    }
+
+    table {
+        font-size: .6rem;
+    }
+    th, td {
+        padding: 5px 20px;
+    }
+    .v-image {
+        visibility: visible;
+    }
+
+    /*********** Reservations Form ************/
+    form label.top input, .dark {
+        width: 100%;
+    }
+    form textarea {
+        width: 100%;
+    }
+
+    /*********** Thanks ************/
+    .thanks {
+        font-size: 2.5rem;
+        margin: 50px 0 300px 0;
+    }
+}

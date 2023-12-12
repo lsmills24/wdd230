@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="favicon.ico">
+    <title>WDD 230 Final Project Contact Page- Loran Mills</title>
+    <!-- Social Media Metadata -->
+    <meta property="og:title" content="Loran Mills - WDD 230 - Wed Frontend Development - Final Project">
+    <meta property="og:type" content="website">
+    <meta property="image" content="#"> <!-- Finish This Image Data -->
+    <meta property="og:url" content="https://lsmills24.github.io/wdd230/finalproject/contact.html"> 
+    <meta name="author" content="Loran Mills">
+    <meta name="description" content="Loran Mills's Final Project Contact Page for WDD230 Web Frontend Development">
+</head>
+<body>
+    <header>
+        <nav>
+            <button id="menu"></button>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="rentals.html">Rentals</a></li>
+                <li><a href="reservations.html">Reservations</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <img id="icon" src="images/scoots-logo.webp" alt="Scoots Logo">
+    </header>
+    <div class="hero">
+        <picture>
+            <source media="(max-width: 360px)" srcset="images/beach-shop-wide-small.webp">
+            <source media="(max-width: 720px)" srcset="images/beach-shop-wide-medium.webp">
+            <img src="images/beach-shop-wide-thin.webp" alt="Scoots Rental Beach Location" width="1440" height="360" loading="lazy"> <!--Photo by Leonardo Rossatti from Pexels: https://www.pexels.com/photo/photo-of-wooden-cabin-on-beach-near-coconut-trees-2598683/-->
+        </picture>
+    </div>
+    <main>
+        <h1 class="title">Contact Us</h1>
+        <div class="welcome-rentals">
+            <section>
+                <h3>Main Location</h3>
+                <p>77645 San Miguel de Cozumel <br>Quintana Roo, Mexico <br>(123)555-1234</p>
+                <p>ScootsRentals@gmail.com</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d59817.42975077101!2d-86.92933626136444!3d20.44097303236659!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x8f4e578911f0280b%3A0xd5cd0271816d9aec!2s77645%20Quintana%20Roo%2C%20Miraflores%2C%20Mexico!3m2!1d20.4904333!2d-86.9289187!4m5!1s0x8f4eff2fc2946c4f%3A0x29fd9b121413dc77!2sVentanas%20Al%20Mar%2C%20Carretera%20Costera%20Oriente%20Km.%2043.5%2C%2077600%20Cozumel%2C%20Q.R.%2C%20Mexico!3m2!1d20.3880615!2d-86.871315!5e0!3m2!1sen!2sus!4v1702356428573!5m2!1sen!2sus" width="1" height="1" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            </section>
+            <section>
+                <h3>Second Location</h3>
+                <p>Ventanas Al Mar <br>Carretera Costera Oriente Km. 43.5 <br>77600 Cozumel, Q.R., Mexico<br>(123)555-2468</p>
+                <p>ScootsRentals@gmail.com</p>
+            </section>
+        </div>
+        <div><br></div>
+        <div class="welcome-rentals">
+            <form action="thanks.html">
+                <fieldset>
+                    <legend>Additional Assistance</legend>
+                    <label class="top">First Name* <input type="text" name="fname" required></label>
+                    <label class="top">Last Name*<input type="text" name="lname" required></label>
+                    <label class="top">Email* <input type="email" name="email" required></label>
+                    <label class="top">Comments* <textarea name="requests" id="requests" cols="30" rows="10" placeholder="Brief Description of Request" required></textarea></label>
+                </fieldset>
+                <input type="submit" value="Reserve Now!" class="submitBtn">
+            </form>
+        </div>
+    </main> 
+    <footer>
+        <div class="socials">
+            <img id="ftr-icon" src="images/scoots-logo-s.webp" alt="Scoots S Logo">
+
+            <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook-icon.webp" alt="Facebook"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="images/instagram-icon.webp" alt="Instagram"></a>
+            <a href="https://twitter.com/" target="_blank"><img src="images/twitter-icon.webp" alt="Twitter"></a>
+            <a href="https://www.linkedin.com/" target="_blank"><img src="images/linkedin-icon.webp" alt="LinkedIn"></a>
+            
+            <p>77645 San Miguel de Cozumel <br>Quintana Roo, Mexico <br>(123)555-1234</p>
+        </div>
+    </footer>
+
+    <script src="scripts/hambutton.js"></script>
+</body>
+</html>

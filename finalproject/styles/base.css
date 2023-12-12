@@ -1,0 +1,356 @@
+@import url("https://fonts.googleapis.com/css2?family=Dekko&family=Permanent+Marker&family=Playpen+Sans:wght@500&display=swap");
+/* https://coolors.co/002642-0770bb-86bbd8-ef9d0a-f26419 */
+
+body {
+    background-color: #fdedd5;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 16px;
+}
+h1, h2, h3 {
+    margin: 0;
+    font-family: 'Dekko', 'Franklin Gothic Medium', Arial, sans-serif;
+    color: #f49e00;
+    text-shadow: #002642 2px 0 5px, black 1px 1px 3px;
+    font-size: 3rem;
+}
+p, ul, li {
+    margin: 5px 0;
+    padding: 0;
+    font-family: 'Playpen Sans', 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    list-style: none;
+
+}
+a {
+    font-family: 'Permanent Marker', 'Franklin Gothic Medium', Arial, sans-serif;
+}
+
+header {
+    width: 100%;
+    margin: 0;
+    padding: 10px 0;
+    background-color: #002642;
+    color: whitesmoke;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+nav {
+    justify-self: start;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    grid-column: 1/2;
+}
+#icon {
+    width: 25%;
+    border-radius: 10px;
+    grid-column: 2/3;
+    justify-self: end;
+    margin-right: 1rem;
+}
+nav a {
+    text-decoration: none;
+    color: whitesmoke;
+    margin-right: 3rem;
+}
+nav a:hover {
+    text-shadow: whitesmoke 2px 2px 10px;
+}
+
+/* HamButton Navigation */
+#menu {
+    background-color: #86bbd8;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    left: .5rem;
+    top: .5rem;
+}
+#menu::before {
+    content: "☰";
+}
+#menu.open::before {
+    content: "✖";
+}
+.navigation {
+    padding: 5px 0px;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    text-align: center;
+}
+.navigation li {
+    display: none;
+    justify-self: space-evenly;
+}
+.navigation li a {
+    display: block;
+    /* padding: .25rem; */
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+.navigation li a:hover {
+    text-shadow: whitesmoke 2px 2px 10px;
+    color: whitesmoke;
+}
+/* When HamBtn Clicked */
+.open li {
+    display: block;
+    width: 100%;
+    margin-left: 3rem;
+}
+.open li a {
+    display: block;
+}
+
+#temp-warning {
+    display: grid;
+    grid-template-columns: 1fr 10px;
+    grid-gap: 10px;
+    padding: 7.5px;
+    background-color: #e93912;
+    color: white;
+}
+#close-banner {
+    justify-self: end;
+}
+
+/*************** Main **************/
+main {
+    margin: 0 auto;
+    padding: 1rem 0;
+    max-width: 75%;
+    /* background-color: white; */
+    /* background-color: #86bbd8; */
+}
+.hero {
+    position: relative;
+}
+.hero img {
+    width: 100%;
+    height: auto;
+}
+.title {
+    margin: 25px 0;
+}
+.welcome {
+    /* position: relative; */
+    padding: 25px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 0;
+}
+div h2 {
+    font-size: 2rem;
+}
+.welcome img {
+    margin-bottom: -4.5px;
+    width: 100%;
+    height: auto;
+    box-shadow: 5px 5px 10px #002642;
+}
+.welcome-rentals {
+    padding: 5px;
+    background-color: lightblue;
+    box-shadow: 5px 5px 10px #002642;
+}
+.vehicles {
+    margin: 10px 0 0 0;
+}
+.vehicles li::before {
+    content: "◇ ";
+}
+a button {
+    margin: 15px 0;
+    height: 50px;
+    width: 150px;
+    font-family: 'Playpen Sans', 'Times New Roman', Times, serif;
+    background-color: #edaf3c;
+    border-color: black;
+    border-radius: 10px;
+    box-shadow: #002642 2px 0 5px;
+} 
+a button:hover {
+    box-shadow: #002642 0 2px 5px;
+}
+figure {
+    margin: 10px 0 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    font-family: 'Playpen Sans', 'Times New Roman', Times, serif;
+}
+hr {
+    border: #002642 solid 1px;
+    box-shadow: #002642 2px 2px 5px;
+}
+#weather-icon, #tom-weather-icon {
+    box-shadow: none;
+    width: 20%;
+}
+iframe {
+    margin: 25px;
+    width: 50%;
+    height: 200px;
+    border: none;
+}
+
+
+
+/*********** Footer ***********/
+footer {
+    margin: 50px 0 0 0;
+    padding: .25rem 0;
+    background-color: #002642;
+    color: whitesmoke;
+}
+footer div {
+    margin: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+#ftr-icon {
+    width: 10%;
+    max-width: 100px;
+    border-radius: 10px;
+
+}
+div a img {
+    width: 60%;
+    background-color: white;
+    border-radius: 20%;
+    max-width: 100px;
+}
+footer p {
+    padding: 1% 5% 1% 5%;
+    border-left: solid whitesmoke 2px;
+    font-size: .7rem;
+}
+
+
+/************** Rentals Page **************/
+table {
+    margin: 1rem auto;
+    border: 2px solid #002642;
+    box-shadow: 5px 5px 10px #002642;
+    border-collapse: collapse;
+    font-family: 'Playpen Sans', 'Times New Roman', Times, serif;
+    font-size: .4rem;
+}
+caption {
+    padding: 5px;
+    caption-side: bottom;
+    /* color: black; */
+    font-size: .85rem;
+}
+th, td {
+    padding: 5px 10px;
+    text-align: center;
+    border: thin solid #fdedd5;
+}
+.darker {
+    background-color: #002642;
+    color: whitesmoke;
+}
+tr:nth-child(even) {
+    background-color: #fdedd5;
+}
+tr:nth-child(odd) {
+    background-color: #edaf3c;
+}
+table img {
+    width: 90%;
+    height: auto;
+}
+@media screen and (max-width: 640px) {
+    .v-image {
+        display: none;
+    }
+}
+
+/*********** Thanks ************/
+.thanks {
+    font-size: 2rem;
+    margin: 50px 0 200px 0;
+}
+
+/*********** Reservations *************/
+form fieldset {
+    margin: 2rem 0;
+    padding: .5rem 2%;
+    border: 2px solid #002642;
+    text-align: left;
+    font-family: 'Playpen Sans', 'Times New Roman', Times, serif;
+    border-radius: 10px;
+}
+form legend {
+    color: #002642;
+    font-family: 'Dekko', 'Franklin Gothic Medium', Arial, sans-serif;
+    margin: 0 1rem;
+    padding: .5rem;
+}
+form label.top, form div {
+    display: block;
+    padding: 1rem 0 0 0;
+    color: #e93912;
+    font-size: .9rem;
+}
+form label.top input, .dark {
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: 1px solid #002642;
+    border-radius: 5px;
+    padding: 1rem;
+    color: #002642;
+    width: 80%;
+    max-width: 18rem;
+    background-color: rgba(0, 0, 0, .1);
+}
+form label.sbs {
+    display: block;
+    padding: 1rem 0;
+    color: #002642;
+    font-size: .75rem;
+}
+form label.top input:required {
+    border-left: 5px solid #e93912;
+}
+form label.top input:required:valid {
+    border-left: 5px solid darkgreen;
+}
+form textarea {
+    display: flex;
+    width: 93%;
+    max-width: 20rem;
+    background-color: rgba(0, 0, 0, .1);
+    border-radius: 5px;
+}
+form input.submitBtn {
+    border: none;
+    background-color: #e93912;
+    color: whitesmoke;
+    font-family: 'Dekko', 'Franklin Gothic Medium', Arial, sans-serif;
+    font-size: 1.25rem;
+    border-radius: 5px;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 95%;
+    max-width: 20rem;
+    display: block;
+}
+
+/********** Contact ***********/
+section h3 {
+    font-size: 1.6rem;
+}

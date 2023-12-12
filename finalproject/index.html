@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="favicon.ico">
+    <title>WDD 230 Final Project Home Page- Loran Mills</title>
+    <!-- Social Media Metadata -->
+    <meta property="og:title" content="Loran Mills - WDD 230 - Wed Frontend Development - Final Project">
+    <meta property="og:type" content="website">
+    <meta property="image" content="#"> <!-- Finish This Image Data -->
+    <meta property="og:url" content="https://lsmills24.github.io/wdd230/finalproject/index.html">
+    <meta name="author" content="Loran Mills">
+    <meta name="description" content="Loran Mills's Final Project Home Page for WDD230 Web Frontend Development">
+</head>
+<body>
+    <header>
+        <nav>
+            <button id="menu"></button>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="rentals.html">Rentals</a></li>
+                <li><a href="reservations.html">Reservations</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <img id="icon" src="images/scoots-logo.webp" alt="Scoots Logo">
+    </header>
+    <div id="temp-warning">
+        <p>Today's Forecasted High is <span id="high-temp"></span>&deg;C</p>
+        <p id="closeBanner"><span class="close-btn" onclick="closeBanner()">✖</span></p>
+    </div>
+    <div class="hero">
+        <picture>
+            <source media="(max-width: 360px)" srcset="images/beach-shop-wide-small.webp">
+            <source media="(max-width: 720px)" srcset="images/beach-shop-wide-medium.webp">
+            <img src="images/beach-shop-wide-thin.webp" alt="Scoots Rental Beach Location" width="1440" height="360" loading="lazy"> <!--Photo by Leonardo Rossatti from Pexels: https://www.pexels.com/photo/photo-of-wooden-cabin-on-beach-near-coconut-trees-2598683/-->
+        </picture>
+    </div>
+    <main>
+        <h1 class="title">Welcome to Scoots Rentals ~ Cozumel!</h1>
+        <a href="reservations.html" target="_blank"><button>RESERVE TODAY!</button></a>
+        <div class="welcome">
+            <picture>
+                <source media="(max-width: 400px)" srcset="images/jeep-mud-small.webp">
+                <source media="(max-width: 720px)" srcset="images/jeep-mud-medium.webp">
+                <img src="images/jeep-mud-larger.webp" alt="Jeep in the Mud" width="960" height="640" loading="lazy"> <!--Photo by Wallace Silva from Pexels: https://www.pexels.com/photo/yellow-jeep-on-muddy-terrain-14507724/-->
+            </picture>
+            <div class="welcome-rentals">
+                <h2>Our Rentals</h2>
+                <p>We offer a range of motor vehicles from single-rider scooters to family size Jeeps!</p>
+                <ul class="vehicles">
+                    <li>1 & 2 Person Scooters of varying sizes</li>
+                    <li>4 Person Side-by-Side ATV</li>
+                    <li>4 & 5 Person - 2 & 4 Door Jeeps</li>
+                </ul>
+                <a href="reservations.html" target="_blank"><button>Rental Details</button></a>
+            </div>
+        </div>
+        <div class="welcome">
+            <div class="welcome-rentals">
+                <h2>Weather Information</h2>
+                <figure>
+                    <img id="weather-icon" src="" alt="">
+                    <figcaption id="today"></figcaption>
+                </figure>
+                <hr>
+                <figure>
+                    <img id="tom-weather-icon" src="" alt="">
+                    <figcaption id="tomorrow"></figcaption>
+                </figure>
+                <a href="https://maps.app.goo.gl/SrZXwdaUimPdrDd86" target="_blank"><button>🗺️ See Map</button></a>
+            </div>
+            <picture>
+                <source media="(max-width: 400px)" srcset="images/cozumel-small.webp">
+                <source media="(max-width: 720px)" srcset="images/cozumel-medium.webp">
+                <img src="images/cozumel-large.webp" alt="Cozumel Rocky Beach" width="960" height="640" loading="lazy"> <!--Photo by Mati Mango from Pexels: https://www.pexels.com/photo/sand-and-rocks-of-a-beach-in-cozumel-mexico-11481556/-->
+            </picture>
+        </div>
+    </main> 
+    <footer>
+        <div class="socials">
+            <img id="ftr-icon" src="images/scoots-logo-s.webp" alt="Scoots S Logo">
+            <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook-icon.webp" alt="Facebook"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="images/instagram-icon.webp" alt="Instagram"></a>
+            <a href="https://twitter.com/" target="_blank"><img src="images/twitter-icon.webp" alt="Twitter"></a>
+            <a href="https://www.linkedin.com/" target="_blank"><img src="images/linkedin-icon.webp" alt="LinkedIn"></a>
+            <p>77645 San Miguel de Cozumel <br>Quintana Roo, Mexico <br>(123)555-1234</p>
+        </div>
+    </footer>
+
+    <script src="scripts/hambutton.js"></script>
+    <script src="scripts/weather.js"></script>
+</body>
+</html>
