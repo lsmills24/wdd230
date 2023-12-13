@@ -10,21 +10,17 @@
         width: 20%;
     }
     
-    .welcome {
-        grid-template-columns: 1fr 1fr;
-    }
     #weather-icon, #tom-weather-icon {
         width: 15%;
+    }
+    .welcome {
+        display: grid;
+        grid-template-columns: 1fr;
     }
     /* iframe {
         width: 80%;
         height: 200px;
     } */
-    .gallery {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-
     footer p {
         font-size: .8rem;
     }

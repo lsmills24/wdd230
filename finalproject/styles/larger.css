@@ -45,6 +45,10 @@
         padding: 15px 30px;
     }
 
+    .welcome {
+        grid-template-columns: 1fr 1fr;
+    }
+
     /*********** Form & Thanks ************/
     form {
         width: 70%;
