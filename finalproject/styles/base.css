@@ -10,8 +10,8 @@ body {
 h1, h2, h3 {
     margin: 0;
     font-family: 'Dekko', 'Franklin Gothic Medium', Arial, sans-serif;
-    color: #f49e00;
-    text-shadow: #002642 2px 0 5px, black 1px 1px 3px;
+    color: #022138;
+    text-shadow: #edaf3c 2px 2px 1px;
     font-size: 3rem;
 }
 p, ul, li {
@@ -86,7 +86,6 @@ nav a:hover {
 }
 .navigation li {
     display: none;
-    justify-self: space-evenly;
 }
 .navigation li a {
     display: block;
@@ -147,7 +146,8 @@ main {
     grid-gap: 0;
 }
 div h2 {
-    font-size: 2rem;
+    font-family: 'Permanent Marker', 'Franklin Gothic Medium', Arial, sans-serif;
+    font-size: 1.5rem;
 }
 .welcome img {
     margin-bottom: -4.5px;
@@ -166,18 +166,23 @@ div h2 {
 .vehicles li::before {
     content: "◇ ";
 }
-a button {
-    margin: 15px 0;
+.button {
+    padding: 5px 10px;
     height: 50px;
     width: 150px;
     font-family: 'Playpen Sans', 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: #002642;
     background-color: #edaf3c;
     border-color: black;
-    border-radius: 10px;
+    border-radius: 5px;
     box-shadow: #002642 2px 0 5px;
 } 
-a button:hover {
+.button:hover {
     box-shadow: #002642 0 2px 5px;
+}
+.link-button {
+    margin: 15px 0;
 }
 figure {
     margin: 10px 0 0 0;
