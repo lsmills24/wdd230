@@ -113,8 +113,8 @@ nav a:hover {
     grid-template-columns: 1fr 10px;
     grid-gap: 10px;
     padding: 7.5px;
-    background-color: #e93912;
-    color: white;
+    background-color: #edaf3c;
+    color: #022138;
 }
 #close-banner {
     justify-self: end;
