@@ -26,10 +26,10 @@ const displayRentals = (rentals) => {
 
         type.textContent = `${rental.type}`;
         persons.textContent = `${rental.persons}`;
-        resHalf.textContent = `${rental.reservation.half}`;
-        resFull.textContent = `${rental.reservation.full}`;
-        walkHalf.textContent = `${rental.walkin.half}`;
-        walkFull.textContent = `${rental.walkin.full}`;
+        resHalf.textContent = `${rental.reservation[0].half}`;
+        resFull.textContent = `${rental.reservation[0].full}`;
+        walkHalf.textContent = `${rental.walkin[0].half}`;
+        walkFull.textContent = `${rental.walkin[0].full}`;
 
         icon.setAttribute('src', rental.image);
         icon.setAttribute('alt', `${rental.type}`);
